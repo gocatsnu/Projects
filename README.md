@@ -18,3 +18,15 @@ python3 scripts/adjust_projections.py
 ```
 
 The resulting CSV lists each player with the original and adjusted stroke projection.
+
+## Fair Odds Projection
+
+`scripts/fair_odds.py` calculates fair head-to-head odds for any matchup in the `72 Hole` CSV that lacks a BetOnline, BetCris, or Pinnacle line. The script uses the adjusted stroke predictions and assumes a player scoring standard deviation of 4.5 strokes per tournament. It also pulls available prices from DraftKings, Bet365, FanDuel, BetMGM, PointsBet, Bovada, Caesars, and Unibet and computes the expected value of each.
+
+Run with:
+
+```bash
+python3 scripts/fair_odds.py
+```
+
+It outputs `Projected Fair Odds Charles Schwab 20250520.csv` containing the fair probabilities, American odds for both golfers, and expected value columns for any sportsbook lines that were listed.
