@@ -29,6 +29,7 @@ books (DraftKings, Bet365, FanDuel, BetMGM, PointsBet, Bovada, Caesars, and
 Unibet) along with the expected value of each wager relative to the projected
 fair probability.
 
+
 Run with:
 
 ```bash
@@ -38,3 +39,4 @@ python3 scripts/fair_odds.py
 The script writes `Projected Fair Odds Charles Schwab 20250520.csv` which lists
 the projected probabilities, no-vig American odds, and for each sportsbook the
 offered price and expected value of betting either golfer.
+

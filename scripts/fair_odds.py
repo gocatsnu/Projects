@@ -22,6 +22,7 @@ def prob_to_american(p: float) -> tuple[int, int]:
 
 def american_to_prob(odds: str) -> float:
     """Convert American odds string to implied probability."""
+
     o = int(odds)
     if o > 0:
         return 100 / (o + 100)
@@ -30,6 +31,7 @@ def american_to_prob(odds: str) -> float:
 
 def payout_decimal(odds: str) -> float:
     """Return decimal payout for a $1 stake at given American odds."""
+
     o = int(odds)
     if o > 0:
         return 1 + o / 100
@@ -63,6 +65,7 @@ def fair_odds(matchup_csv: str, strokes: dict[str, float], out_csv: str) -> None
     out_rows = []
     seen = set()
     with open(matchup_csv) as f:
+
         reader = csv.DictReader(f)
         for row in reader:
             p1 = row["name_p1"].strip()
@@ -135,3 +138,4 @@ if __name__ == '__main__':
     strokes = load_adjusted('Adjusted Strokes Charles Schwab 20250520.csv')
     fair_odds('Charles Schwab 2025 72 Hole 20250520.csv', strokes,
               'Projected Fair Odds Charles Schwab 20250520.csv')
+
