@@ -19,15 +19,16 @@ python3 scripts/adjust_projections.py
 
 The resulting CSV lists each player with the original and adjusted stroke projection.
 
+## Fair Odds Projection
 
-`scripts/fair_odds.py` calculates fair head-to-head odds for any matchup in the `72 Hole` CSV that lacks a BetOnline, BetCris, or Pinnacle line. The script uses the adjusted stroke predictions and assumes a player scoring standard deviation of 4.5 strokes per tournament. It also pulls available prices from DraftKings, Bet365, FanDuel, BetMGM, PointsBet, Bovada, Caesars, and Unibet and computes the expected value of each.
+`scripts/fair_odds.py` calculates fair head-to-head odds for any matchup in the
+`72 Hole` CSV that lacks a BetOnline, BetCris, or Pinnacle price. It relies on
+the adjusted stroke predictions and assumes a player scoring standard deviation
+of 4.5 strokes per tournament. The output also lists available lines from other
+books (DraftKings, Bet365, FanDuel, BetMGM, PointsBet, Bovada, Caesars, and
+Unibet) along with the expected value of each wager relative to the projected
+fair probability.
 
-For each listed matchup, the script uses DataGolf stroke projections to estimate a fair win probability. For markets where BetOnline, BetCris, or Pinnacle prices are missing, it pulls available odds from other sportsbooks. Each price is converted to an implied probability and its expected value (EV), calculated as:
-
-```
-EV = fair_prob_p1 * payout - (1 - fair_prob_p1)
-```
-where `payout` is the decimal return for a winning bet.
 
 Run with:
 
@@ -35,4 +36,7 @@ Run with:
 python3 scripts/fair_odds.py
 ```
 
-It outputs `Projected Fair Odds Charles Schwab 20250520.csv` containing the fair probabilities, American odds for both golfers, and expected value columns for any sportsbook lines that were listed, so you can easily compare the market to the model.
+The script writes `Projected Fair Odds Charles Schwab 20250520.csv` which lists
+the projected probabilities, no-vig American odds, and for each sportsbook the
+offered price and expected value of betting either golfer.
+

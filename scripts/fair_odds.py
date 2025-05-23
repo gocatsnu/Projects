@@ -1,122 +1,141 @@
 import csv
 import math
-from collections import OrderedDict
 
-# Helper copied from adjust_projections.py
+
+def phi(x: float) -> float:
+    """Standard normal CDF using the error function."""
+    return 0.5 * (1 + math.erf(x / math.sqrt(2)))
+
+
+def prob_to_american(p: float) -> tuple[int, int]:
+    """Convert win probability to American odds for both sides."""
+    if p <= 0 or p >= 1:
+        raise ValueError("p must be between 0 and 1")
+    if abs(p - 0.5) < 1e-9:
+        return -110, -110
+    if p > 0.5:
+        odds = -(p / (1 - p)) * 100
+        return int(round(odds)), int(round(-10000 / odds))
+    odds = ((1 - p) / p) * 100
+    return int(round(10000 / odds)), int(round(-odds))
+
 
 def american_to_prob(odds: str) -> float:
-    """Convert American odds to implied probability."""
+    """Convert American odds string to implied probability."""
+
     o = int(odds)
     if o > 0:
         return 100 / (o + 100)
     return -o / (-o + 100)
 
 
-def prob_to_american(prob: float) -> int:
-    """Convert probability to American odds (rounded)."""
-    if prob <= 0 or prob >= 1:
-        raise ValueError("prob must be between 0 and 1")
-    if prob > 0.5:
-        return int(round(-prob / (1 - prob) * 100))
-    return int(round((1 - prob) / prob * 100))
+def payout_decimal(odds: str) -> float:
+    """Return decimal payout for a $1 stake at given American odds."""
 
-
-def prob_to_decimal(prob: float) -> float:
-    """Return decimal odds from win probability."""
-    return 1 / prob
-
-
-def american_to_decimal(odds: str) -> float:
     o = int(odds)
     if o > 0:
         return 1 + o / 100
     return 1 + 100 / (-o)
 
 
-SIGMA_DIFF = 6.0
-
-
-def norm_cdf(x: float) -> float:
-    return 0.5 * (1 + math.erf(x / math.sqrt(2)))
-
-
-def load_strokes(path: str) -> dict:
-    strokes = {}
+def load_adjusted(path):
+    data = {}
     with open(path) as f:
         reader = csv.DictReader(f)
         for row in reader:
-            strokes[row["PLAYER NAME"].strip()] = float(row["STROKES PREDICTION"])
-    return strokes
+            data[row['PLAYER NAME'].strip()] = float(row['ADJUSTED STROKES'])
+    return data
 
 
-def fair_probability(diff: float) -> float:
-    """Probability player1 beats player2 given stroke difference."""
-    return norm_cdf(-diff / SIGMA_DIFF)
+def fair_odds(matchup_csv: str, strokes: dict[str, float], out_csv: str) -> None:
+    """Compute fair odds and expected value for head-to-head matchups."""
+    sigma_player = 4.5
+    sigma_diff = math.sqrt(2) * sigma_player
+    books = [
+        "draftkings",
+        "bet365",
+        "fanduel",
+        "betmgm",
+        "pointsbet",
+        "bovada",
+        "caesars",
+        "unibet",
+    ]
 
+    out_rows = []
+    seen = set()
+    with open(matchup_csv) as f:
 
-BOOKS_PRIMARY = ["betonline", "betcris", "pinnacle"]
-BOOKS_EXTRA = [
-    "draftkings",
-    "bet365",
-    "fanduel",
-    "betmgm",
-    "pointsbet",
-    "bovada",
-    "caesars",
-    "unibet",
-]
-ALL_BOOKS = BOOKS_PRIMARY + BOOKS_EXTRA
-
-
-def process(matchups_path: str, strokes_path: str, out_path: str) -> None:
-    strokes = load_strokes(strokes_path)
-    output_rows = []
-
-    with open(matchups_path) as f:
         reader = csv.DictReader(f)
         for row in reader:
             p1 = row["name_p1"].strip()
             p2 = row["name_p2"].strip()
+            pair = tuple(sorted((p1, p2)))
+            if pair in seen:
+                continue
+            seen.add(pair)
+
+            has_market = any(
+                row[col] not in ("", "null")
+                for col in ("betonline_p1", "betcris_p1", "pinnacle_p1")
+            )
+            if has_market:
+                continue
             if p1 not in strokes or p2 not in strokes:
                 continue
+
             diff = strokes[p1] - strokes[p2]
-            fair_prob_p1 = fair_probability(diff)
-            res = OrderedDict(
-                [
-                    ("name_p1", p1),
-                    ("name_p2", p2),
-                    ("fair_prob_p1", round(fair_prob_p1, 4)),
-                    ("fair_prob_p2", round(1 - fair_prob_p1, 4)),
-                ]
-            )
+            win_prob = phi(-diff / sigma_diff)
+            odds_p1, odds_p2 = prob_to_american(win_prob)
 
-            has_primary = any(
-                row.get(f"{b}_p1") not in ("", None, "null") for b in BOOKS_PRIMARY
-            )
+            rec = {
+                "p1": p1,
+                "p2": p2,
+                "fair_prob_p1": f"{win_prob:.4f}",
+                "fair_odds_p1": odds_p1,
+                "fair_odds_p2": odds_p2,
+            }
 
-            for book in ALL_BOOKS:
-                val = row.get(f"{book}_p1")
-                if (book in BOOKS_EXTRA and not has_primary) or (book in BOOKS_PRIMARY):
-                    if val and val != "null":
-                        res[f"{book}_p1"] = val
-                        payout = american_to_decimal(val)
-                        ev = fair_prob_p1 * payout - (1 - fair_prob_p1)
-                        res[f"{book}_ev_p1"] = round(ev, 4)
-                    else:
-                        res[f"{book}_p1"] = ""
-                        res[f"{book}_ev_p1"] = ""
-            output_rows.append(res)
+            for book in books:
+                p1_col = f"{book}_p1"
+                p2_col = f"{book}_p2"
+                val1 = row.get(p1_col, "")
+                val2 = row.get(p2_col, "")
+                if val1 not in ("", "null"):
+                    try:
+                        payout1 = payout_decimal(val1)
+                        ev1 = win_prob * payout1 - 1
+                        rec[p1_col] = int(val1)
+                        rec[f"{book}_ev_p1"] = f"{ev1:.4f}"
+                    except Exception:
+                        pass
+                if val2 not in ("", "null"):
+                    try:
+                        payout2 = payout_decimal(val2)
+                        ev2 = (1 - win_prob) * payout2 - 1
+                        rec[p2_col] = int(val2)
+                        rec[f"{book}_ev_p2"] = f"{ev2:.4f}"
+                    except Exception:
+                        pass
 
-    fieldnames = list(output_rows[0].keys()) if output_rows else []
-    with open(out_path, "w", newline="") as f:
+            out_rows.append(rec)
+
+    fieldnames = ["p1", "p2", "fair_prob_p1", "fair_odds_p1", "fair_odds_p2"]
+    for book in books:
+        fieldnames.extend(
+            [f"{book}_p1", f"{book}_ev_p1", f"{book}_p2", f"{book}_ev_p2"]
+        )
+
+    with open(out_csv, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(output_rows)
+        writer.writerows(out_rows)
+
+    print("Wrote", len(out_rows), "projected odds to", out_csv)
 
 
-if __name__ == "__main__":
-    process(
-        "Charles Schwab 2025 72 Hole 20250520.csv",
-        "DG Strokes Charles Schwab 20250520.csv",
-        "Projected Fair Odds Charles Schwab 20250520.csv",
-    )
+if __name__ == '__main__':
+    strokes = load_adjusted('Adjusted Strokes Charles Schwab 20250520.csv')
+    fair_odds('Charles Schwab 2025 72 Hole 20250520.csv', strokes,
+              'Projected Fair Odds Charles Schwab 20250520.csv')
+
