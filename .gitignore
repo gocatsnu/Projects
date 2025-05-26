@@ -1,0 +1,22 @@
+# Python artefacts
+__pycache__/
+*.py[cod]
+.env/
+
+# Data that can be regenerated
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+
+# Ignore stray CSVs at repo root
+/*.csv
+# But keep curated outputs
+!outputs/*.csv
+
+# Notebooks checkpoints
+**/.ipynb_checkpoints/
+
+# Secrets (handled via GitHub Secrets instead)
+*.json
+*.yaml
