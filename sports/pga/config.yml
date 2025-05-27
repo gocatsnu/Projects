@@ -1,3 +1,5 @@
-strokes_csv: data/raw/DG Strokes Charles Schwab 20250520.csv
-matchups_csv: data/raw/Charles Schwab 2025 72 Hole 20250520.csv
-output_csv: data/raw/Projected Fair Odds Charles Schwab 20250520.csv
+strokes_csv: "data/raw/DG Strokes Charles Schwab 20250520.csv"
+matchups_csv: "data/raw/Charles Schwab 2025 72 Hole 20250520.csv"
+output_csv: "data/raw/Adjusted Strokes Charles Schwab 20250520.csv"
+sheet_key: ""
+

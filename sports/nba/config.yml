@@ -1,0 +1,3 @@
+# Example config for NBA pipeline
+data_url: "https://example.com/nba.csv"
+sheet_key: ""
