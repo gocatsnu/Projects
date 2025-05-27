@@ -53,7 +53,13 @@ def load_strokes(path):
     with open(path) as f:
         reader = csv.DictReader(f)
         for row in reader:
-            data[row['PLAYER NAME'].strip()] = float(row['STROKES PREDICTION'])
+            if 'ADJUSTED STROKES' in row:
+                val = row['ADJUSTED STROKES']
+            else:
+                val = row.get('STROKES PREDICTION')
+            if val is None or val == '':
+                continue
+            data[row['PLAYER NAME'].strip()] = float(val)
     return data
 
 def parse_matchups(path, strokes):

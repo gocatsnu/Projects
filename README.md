@@ -35,7 +35,7 @@ Run with:
 python3 scripts/fair_odds.py
 ```
 
-It outputs `Projected Fair Odds Charles Schwab 20250520.csv` containing the fair probabilities, American odds for both golfers, and expected value columns for any sportsbook lines that were listed, so you can easily compare the market to the model.
+It outputs `Projected Fair Odds Charles Schwab 20250520.csv` containing the fair probabilities and their equivalent American odds (`fair_odds_p1` and `fair_odds_p2`). The CSV also lists each sportsbook's offered price with the expected value of a wager at that line so you can easily compare the market to the model.
 
 Production outputs from the scripts are saved in the `outputs/` directory. Those generated CSVs are typically the only outputs that get committed to version control.
 

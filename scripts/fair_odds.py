@@ -45,7 +45,13 @@ def load_strokes(path: str) -> dict:
     with open(path) as f:
         reader = csv.DictReader(f)
         for row in reader:
-            strokes[row["PLAYER NAME"].strip()] = float(row["STROKES PREDICTION"])
+            if "ADJUSTED STROKES" in row:
+                val = row["ADJUSTED STROKES"]
+            else:
+                val = row.get("STROKES PREDICTION")
+            if val is None or val == "":
+                continue
+            strokes[row["PLAYER NAME"].strip()] = float(val)
     return strokes
 
 
@@ -87,6 +93,8 @@ def process(matchups_path: str, strokes_path: str, out_path: str) -> None:
                     ("name_p2", p2),
                     ("fair_prob_p1", round(fair_prob_p1, 4)),
                     ("fair_prob_p2", round(1 - fair_prob_p1, 4)),
+                    ("fair_odds_p1", prob_to_american(fair_prob_p1)),
+                    ("fair_odds_p2", prob_to_american(1 - fair_prob_p1)),
                 ]
             )
 
