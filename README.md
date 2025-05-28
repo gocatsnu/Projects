@@ -39,3 +39,13 @@ It outputs `Projected Fair Odds Charles Schwab 20250520.csv` containing the fair
 
 Production outputs from the scripts are saved in the `outputs/` directory. Those generated CSVs are typically the only outputs that get committed to version control.
 
+## Muirfield Hole Scores
+
+`scripts/scrape_hole_scores.py` downloads hole-by-hole scoring data from DataGolf's API. Provide the event slug, a year range, and your API key:
+
+```bash
+python3 scripts/scrape_hole_scores.py the-memorial-tournament 2020 2024 YOUR_KEY
+```
+
+The script writes `outputs/muirfield_hole_scores.csv` with one row per hole showing the year, player name, round, hole number, and raw score.
+
