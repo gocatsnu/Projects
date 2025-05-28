@@ -92,8 +92,13 @@ def parse_matchups(path, strokes):
                 continue
             if p1 not in strokes or p2 not in strokes:
                 continue
-            prob_p1 = sum(probs)/len(probs)
-            sigma_diff = 6.0
+            prob_p1 = sum(probs) / len(probs)
+            m = row.get('market', '').lower()
+            if 'r1' in m or 'round' in m:
+                sigma_round = 2.5  # see pga_dispersion_model.md
+                sigma_diff = (2 ** 0.5) * sigma_round
+            else:
+                sigma_diff = 6.0
             implied_diff = -sigma_diff * phi_inv(prob_p1)
             dg_diff = strokes[p1] - strokes[p2]
             pairs.append((p1,p2,dg_diff,implied_diff))
@@ -117,12 +122,25 @@ def adjust_strokes(strokes, pairs):
     return result
 
 if __name__ == '__main__':
-    strokes = load_strokes('DG Strokes Charles Schwab 20250520.csv')
-    pairs = parse_matchups('Charles Schwab 2025 72 Hole 20250520.csv', strokes)
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Adjust stroke projections using market odds.')
+    parser.add_argument('--strokes', default='DG Strokes Charles Schwab 20250520.csv',
+                        help='CSV with baseline or previously adjusted strokes')
+    parser.add_argument('--matchups', default='Charles Schwab 2025 72 Hole 20250520.csv',
+                        help='CSV with matchup odds')
+    parser.add_argument('--output', default='Adjusted Strokes Charles Schwab 20250520.csv',
+                        help='Output CSV path')
+    args = parser.parse_args()
+
+    strokes = load_strokes(args.strokes)
+    pairs = parse_matchups(args.matchups, strokes)
     final = adjust_strokes(strokes, pairs)
-    with open('Adjusted Strokes Charles Schwab 20250520.csv','w',newline='') as f:
+
+    with open(args.output, 'w', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['PLAYER NAME','BASELINE STROKES','ADJUSTED STROKES'])
+        writer.writerow(['PLAYER NAME', 'BASELINE STROKES', 'ADJUSTED STROKES'])
         for name in sorted(final):
-            writer.writerow([name, strokes[name], round(final[name],3)])
+            writer.writerow([name, strokes[name], round(final[name], 3)])
+
     print('Adjusted projections written for', len(final), 'players')
