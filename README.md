@@ -39,3 +39,13 @@ It outputs `Projected Fair Odds Charles Schwab 20250520.csv` containing the fair
 
 Production outputs from the scripts are saved in the `outputs/` directory. Those generated CSVs are typically the only outputs that get committed to version control.
 
+
+## Scraping Live Scores
+
+`scripts/scrape_live_scores.py` downloads the current hole-by-hole scores from ESPN's leaderboard API. Provide the ESPN `event_id` for an active tournament and an output file name:
+
+```bash
+python3 scripts/scrape_live_scores.py --event_id 401234567 --output memorial_scores.csv
+```
+
+The resulting CSV lists each player and their score on holes 1–18. Empty fields indicate holes not yet played.
