@@ -94,7 +94,7 @@ def parse_matchups(path, strokes):
                 continue
             prob_p1 = sum(probs) / len(probs)
             m = row.get('market', '').lower()
-            if 'r1' in m or 'round' in m:
+            if any(r in m for r in ('r1', 'r2', 'r3', 'r4')) or 'round' in m:
                 sigma_round = 2.5  # see pga_dispersion_model.md
                 sigma_diff = (2 ** 0.5) * sigma_round
             else:
