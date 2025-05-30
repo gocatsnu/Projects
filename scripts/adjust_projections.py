@@ -48,13 +48,15 @@ def phi_inv(p):
         q = math.sqrt(-2*math.log(1-p))
         return -(((((c1*q+c2)*q+c3)*q+c4)*q+c5)*q+c6)/((((d1*q+d2)*q+d3)*q+d4)*q+1)
 
-def load_strokes(path):
+def load_strokes(path, use_adjusted=True):
     data = {}
     with open(path) as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if 'ADJUSTED STROKES' in row:
+            if use_adjusted and 'ADJUSTED STROKES' in row:
                 val = row['ADJUSTED STROKES']
+            elif 'BASELINE STROKES' in row:
+                val = row['BASELINE STROKES']
             else:
                 val = row.get('STROKES PREDICTION')
             if val is None or val == '':
@@ -94,7 +96,7 @@ def parse_matchups(path, strokes):
                 continue
             prob_p1 = sum(probs) / len(probs)
             m = row.get('market', '').lower()
-            if 'r1' in m or 'round' in m:
+            if any(r in m for r in ('r1', 'r2', 'r3', 'r4')) or 'round' in m:
                 sigma_round = 2.5  # see pga_dispersion_model.md
                 sigma_diff = (2 ** 0.5) * sigma_round
             else:
@@ -127,13 +129,16 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Adjust stroke projections using market odds.')
     parser.add_argument('--strokes', default='DG Strokes Charles Schwab 20250520.csv',
                         help='CSV with baseline or previously adjusted strokes')
+    parser.add_argument('--baseline', default=None,
+                        help='CSV with original baseline strokes (optional)')
     parser.add_argument('--matchups', default='Charles Schwab 2025 72 Hole 20250520.csv',
                         help='CSV with matchup odds')
     parser.add_argument('--output', default='Adjusted Strokes Charles Schwab 20250520.csv',
                         help='Output CSV path')
     args = parser.parse_args()
 
-    strokes = load_strokes(args.strokes)
+    baseline = load_strokes(args.baseline or args.strokes, use_adjusted=False)
+    strokes = load_strokes(args.strokes, use_adjusted=True)
     pairs = parse_matchups(args.matchups, strokes)
     final = adjust_strokes(strokes, pairs)
 
@@ -141,6 +146,6 @@ if __name__ == '__main__':
         writer = csv.writer(f)
         writer.writerow(['PLAYER NAME', 'BASELINE STROKES', 'ADJUSTED STROKES'])
         for name in sorted(final):
-            writer.writerow([name, strokes[name], round(final[name], 3)])
+            writer.writerow([name, baseline.get(name, strokes.get(name, '')), round(final[name], 3)])
 
     print('Adjusted projections written for', len(final), 'players')
