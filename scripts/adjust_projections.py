@@ -48,11 +48,14 @@ def phi_inv(p):
         q = math.sqrt(-2*math.log(1-p))
         return -(((((c1*q+c2)*q+c3)*q+c4)*q+c5)*q+c6)/((((d1*q+d2)*q+d3)*q+d4)*q+1)
 
-def load_strokes(path, use_adjusted=True):
+def load_strokes(path, use_adjusted=True, course=None):
+    """Load strokes from a CSV. Optionally filter by course name."""
     data = {}
     with open(path) as f:
         reader = csv.DictReader(f)
         for row in reader:
+            if course and row.get('COURSE NAME') and course not in row['COURSE NAME']:
+                continue
             if use_adjusted and 'ADJUSTED STROKES' in row:
                 val = row['ADJUSTED STROKES']
             elif 'BASELINE STROKES' in row:
@@ -135,10 +138,12 @@ if __name__ == '__main__':
                         help='CSV with matchup odds')
     parser.add_argument('--output', default='Adjusted Strokes Charles Schwab 20250520.csv',
                         help='Output CSV path')
+    parser.add_argument('--course', default=None,
+                        help='If provided, filter strokes to rows containing this course name')
     args = parser.parse_args()
 
-    baseline = load_strokes(args.baseline or args.strokes, use_adjusted=False)
-    strokes = load_strokes(args.strokes, use_adjusted=True)
+    baseline = load_strokes(args.baseline or args.strokes, use_adjusted=False, course=args.course)
+    strokes = load_strokes(args.strokes, use_adjusted=True, course=args.course)
     pairs = parse_matchups(args.matchups, strokes)
     final = adjust_strokes(strokes, pairs)
 
