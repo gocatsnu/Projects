@@ -53,3 +53,17 @@ python3 scripts/scrape_live_scores.py --event_id 401234567 --output memorial_sco
 ```
 
 The resulting CSV lists each player and their score on holes 1–18. Empty fields indicate holes not yet played.
+
+## Evaluating Sportsbook Prices
+
+`scripts/model_ev.py` compares your model's probabilities for each golfer against the American-odds lines from multiple sportsbooks. It converts the odds to decimal form and computes expected value using
+
+```
+EV = prob * payout - 1
+```
+
+Any wager with EV above 6% is written to `outputs/model_positive_ev.csv` sorted from highest to lowest. Run the helper with:
+
+```bash
+python3 scripts/model_ev.py
+```

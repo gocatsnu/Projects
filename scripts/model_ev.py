@@ -62,7 +62,8 @@ MARKET_FILES = {
 }
 
 
-def compute_best_ev(preds: dict, root: str):
+def compute_positive_ev(preds: dict, root: str, threshold: float = 0.06):
+    """Return all wagers with EV above the given threshold."""
     bets = []
     for market, fname in MARKET_FILES.items():
         path = Path(root) / fname
@@ -73,32 +74,31 @@ def compute_best_ev(preds: dict, root: str):
                 if name not in preds:
                     continue
                 prob = preds[name][market]
-                best = None
                 for book in BOOKS:
                     odds = row.get(f"{book}_odds")
-                    if not odds or odds in ('', 'null'):
+                    if not odds or odds in ("", "null"):
                         continue
                     payout = american_to_decimal(odds)
                     if payout is None:
                         continue
                     ev = prob * payout - 1
-                    if best is None or ev > best['ev']:
-                        best = {
-                            'market': market,
-                            'player': name,
-                            'book': book,
-                            'odds': odds,
-                            'ev': ev,
-                        }
-                if best and best['ev'] > 0:
-                    bets.append(best)
+                    if ev > threshold:
+                        bets.append(
+                            {
+                                "market": market,
+                                "player": name,
+                                "book": book,
+                                "odds": odds,
+                                "ev": ev,
+                            }
+                        )
     bets.sort(key=lambda x: x['ev'], reverse=True)
     return bets
 
 
 def main():
-    preds = load_predictions('data/raw/KLM Open Simulation.csv')
-    bets = compute_best_ev(preds, 'data/raw')
+    preds = load_predictions("data/raw/KLM Open Simulation.csv")
+    bets = compute_positive_ev(preds, "data/raw")
     out_path = Path('outputs/model_positive_ev.csv')
     with open(out_path, 'w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['market', 'player', 'book', 'odds', 'ev'])
