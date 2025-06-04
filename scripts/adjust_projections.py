@@ -134,17 +134,22 @@ if __name__ == '__main__':
                         help='CSV with baseline or previously adjusted strokes')
     parser.add_argument('--baseline', default=None,
                         help='CSV with original baseline strokes (optional)')
-    parser.add_argument('--matchups', default='Charles Schwab 2025 72 Hole 20250520.csv',
-                        help='CSV with matchup odds')
+    parser.add_argument('--matchups', action='append', default=[],
+                        help='CSV file with matchup odds. Can be used multiple times.')
     parser.add_argument('--output', default='Adjusted Strokes Charles Schwab 20250520.csv',
                         help='Output CSV path')
     parser.add_argument('--course', default=None,
                         help='If provided, filter strokes to rows containing this course name')
     args = parser.parse_args()
 
+    if not args.matchups:
+        args.matchups = ['Charles Schwab 2025 72 Hole 20250520.csv']
+
     baseline = load_strokes(args.baseline or args.strokes, use_adjusted=False, course=args.course)
     strokes = load_strokes(args.strokes, use_adjusted=True, course=args.course)
-    pairs = parse_matchups(args.matchups, strokes)
+    pairs = []
+    for mp in args.matchups:
+        pairs.extend(parse_matchups(mp, strokes))
     final = adjust_strokes(strokes, pairs)
 
     with open(args.output, 'w', newline='') as f:

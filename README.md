@@ -9,12 +9,16 @@ This repository contains data files and a simple script for producing market-adj
 
 ## Script
 
-`scripts/adjust_projections.py` reads the two CSV files and produces `Adjusted Strokes Charles Schwab 20250520.csv`. The script converts available odds from BetOnline, BetCris, and Pinnacle to implied probabilities, infers expected stroke differences, and nudges the DataGolf projections toward the market view.
+`scripts/adjust_projections.py` reads one or more matchup CSV files and produces an adjusted strokes file. It converts available odds from BetOnline, BetCris, and Pinnacle to implied probabilities, infers expected stroke differences, and nudges the DataGolf projections toward the market view.
 
 Run the script with:
 
 ```bash
-python3 scripts/adjust_projections.py
+python3 scripts/adjust_projections.py \
+  --strokes "Canadian Open DG Thursday Strokes 20250602.csv" \
+  --matchups "Canadian Open 72 Hole Odds 20250603.csv" \
+  --matchups "Canadian Open r1 odds 20250603.csv" \
+  --output "Adjusted Strokes Canadian Open 20250603.csv"
 ```
 
 The resulting CSV lists each player with the original and adjusted stroke projection.
