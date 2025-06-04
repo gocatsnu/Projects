@@ -18,6 +18,7 @@ python3 scripts/adjust_projections.py \
   --strokes "Canadian Open DG Thursday Strokes 20250602.csv" \
   --matchups "Canadian Open 72 Hole Odds 20250603.csv" \
   --matchups "Canadian Open r1 odds 20250603.csv" \
+  --course "TPC Toronto at Osprey Valley (North Course)" \
   --output "Adjusted Strokes Canadian Open 20250603.csv"
 ```
 
