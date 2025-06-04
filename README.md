@@ -16,9 +16,9 @@ Run the script with:
 ```bash
 python3 scripts/adjust_projections.py \
   --strokes "Canadian Open DG Thursday Strokes 20250602.csv" \
-  --matchups "Canadian Open 72 Hole Odds 20250603.csv" \
-  --matchups "Canadian Open r1 odds 20250603.csv" \
-  --output "Adjusted Strokes Canadian Open 20250603.csv"
+  --matchups "Canadian Open 72 Hole Matchups 20250604.csv" \
+  --matchups "Canadian Open r1 match ups 20250604.csv" \
+  --output "Adjusted Strokes Canadian Open 20250604.csv"
 ```
 
 The resulting CSV lists each player with the original and adjusted stroke projection.
