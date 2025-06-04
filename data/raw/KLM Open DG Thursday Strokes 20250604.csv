@@ -1,0 +1,157 @@
+﻿player_name,Strokes Prediction,final_prediction
+"Neergaard-Petersen, Rasmus",69.779,0.781
+"Luiten, Joost",70.056,0.504
+"Nakajima, Keita",70.181,0.379
+"Li, Haotong",70.182,0.378
+"Ferguson, Ewen",70.286,0.274
+"Chacarra, Eugenio",70.426,0.134
+"Canter, Laurie",70.437,0.123
+"Laporta, Francesco",70.445,0.115
+"Schaper, Jayden",70.461,0.099
+"Stone, Brandon",70.466,0.094
+"Bairstow, Sam",70.52,0.04
+"Reitan, Kristoffer",70.529,0.031
+"Schneider, Marcel",70.569,-0.009
+"Ding, Wenyi",70.627,-0.067
+"Pavan, Andrea",70.647,-0.087
+"Mansell, Richard",70.716,-0.156
+"Parry, John",70.717,-0.157
+"Ayora, Angel",70.745,-0.185
+"Hillier, Daniel",70.761,-0.201
+"Guerrier, Julien",70.807,-0.247
+"Sullivan, Andy",70.837,-0.277
+"Soderberg, Sebastian",70.852,-0.292
+"Veerman, Johannes",70.857,-0.297
+"Fitzpatrick, Alex",70.857,-0.297
+"Zanotti, Fabrizio",70.864,-0.304
+"Crocker, Sean",70.9,-0.34
+"Lindell, Oliver",70.913,-0.353
+"Migliozzi, Guido",70.951,-0.391
+"Clements, Todd",70.968,-0.408
+"Catlin, John",70.976,-0.416
+"Coussaud, Ugo",71,-0.44
+"Robinson-Thompson, Brandon",71.021,-0.461
+"Otaegui, Adrian",71.033,-0.473
+"Campillo, Jorge",71.053,-0.493
+"Lawrence, Thriston",71.06,-0.5
+"Armitage, Marcus",71.088,-0.528
+"Olesen, Jacob Skov",71.089,-0.529
+"Kinhult, Marcus",71.122,-0.562
+"Von Dellingshausen, Nicolai",71.125,-0.565
+"Siem, Marcel",71.129,-0.569
+"Jamieson, Scott",71.134,-0.574
+"Dean, Joe",71.136,-0.576
+"Kimsey, Nathan",71.136,-0.576
+"Kobori, Kazuma",71.137,-0.577
+"Wiesberger, Bernd",71.151,-0.591
+"Katsuragawa, Yuto",71.153,-0.593
+"Vaillant, Tom",71.156,-0.596
+"Lemke, Niklas",71.175,-0.615
+"Brown, Daniel",71.178,-0.618
+"Cockerill, Aaron",71.18,-0.62
+"Del Rey, Alejandro",71.188,-0.628
+"Jarvis, Casey",71.202,-0.642
+"Hill, Calum",71.203,-0.643
+"Scrivener, Jason",71.205,-0.645
+"Merritt, Troy",71.23,-0.67
+"Kieffer, Maximilian",71.245,-0.685
+"Southgate, Matthew",71.253,-0.693
+"Van Driel, Darius",71.259,-0.699
+"Ravetto, David",71.269,-0.709
+"Paul, Yannik",71.274,-0.714
+"Winther, Jeff",71.286,-0.726
+"Shinkwin, Callum",71.299,-0.739
+"Molinari, Francesco",71.333,-0.773
+"Larrazabal, Pablo",71.346,-0.786
+"Schmidt, Ben",71.348,-0.788
+"Wu, Brandon",71.406,-0.846
+"Elvira Mijares, Ignacio",71.408,-0.848
+"Williams, Robin",71.427,-0.867
+"Purcell, Conor",71.445,-0.885
+"Ramsay, Richie",71.447,-0.887
+"Nienaber, Wilco",71.454,-0.894
+"Forrest, Grant",71.454,-0.894
+"Frittelli, Dylan",71.459,-0.899
+"Halvorsen, Andreas",71.471,-0.911
+"Bradbury, Dan",71.473,-0.913
+"Gouveia, Ricardo",71.489,-0.929
+"Syme, Connor",71.51,-0.95
+"Hidalgo, Angel",71.537,-0.977
+"Cantero Gutierrez, Ivan",71.545,-0.985
+"Elvira, Manuel",71.548,-0.988
+"Wilson, Andrew",71.549,-0.989
+"Tarren, Callum",71.562,-1.002
+"Green, Gavin",71.587,-1.027
+"Forsstrom, Simon",71.627,-1.067
+"Schott, Freddy",71.639,-1.079
+"Dantorp, Jens",71.656,-1.096
+"Sharma, Shubhankar",71.669,-1.109
+"Hebert, Benjamin",71.68,-1.12
+"Bryant, Davis",71.691,-1.131
+"Aiken, Thomas",71.694,-1.134
+"De Leo, Gregorio",71.72,-1.16
+"Gumberg, Jordan",71.722,-1.162
+"Micheluzzi, David",71.726,-1.166
+"Senior, Jack",71.757,-1.197
+"Kim, Minkyu",71.824,-1.264
+"Lagergren, Joakim",71.848,-1.288
+"Sordet, Clement",71.877,-1.317
+"Pulkkanen, Tapio",71.889,-1.329
+"Girrbach, Joel",71.895,-1.335
+"Colsaerts, Nicolas",71.899,-1.339
+"Besseling, Wil",71.903,-1.343
+"Johnston, Ryggs",71.916,-1.356
+"Boneta, Albert",71.935,-1.375
+"Cabrera Bello, Rafa",71.984,-1.424
+"Van Meijel, Lars",71.995,-1.435
+"Baldwin, Matthew",71.998,-1.438
+"Ahlawat, Veer",72,-1.44
+"Kleen, Algot",72.029,-1.469
+"Germishuys, Deon",72.037,-1.477
+"Van Velzen, Ryan",72.083,-1.523
+"De Bruyn, Jannik",72.085,-1.525
+"Moscatel, Joel",72.092,-1.532
+"Erickson, Dan",72.135,-1.575
+"Lindberg, Mikael",72.147,-1.587
+"Brown, Hamish",72.149,-1.589
+"Ko, Jeong Weon",72.19,-1.63
+"Gale, Daniel",72.228,-1.668
+"Jin, Zihao",72.241,-1.681
+"Naidoo, Dylan",72.253,-1.693
+"Whitnell, Dale",72.27,-1.71
+"Huizing, Daan",72.283,-1.723
+"Garcia-Heredia, Alfredo",72.283,-1.723
+"Sterne, Richard",72.35,-1.79
+"Bjerregaard, Lucas",72.371,-1.811
+"Shaun, Corey",72.376,-1.816
+"Fisher, Ross",72.378,-1.818
+"Tetak, TadeÃ¡Å¡",72.43,-1.87
+"Akesson, Bjorn",72.51,-1.95
+"Lombard, Zander",72.514,-1.954
+"Van Der Vight, Lars",72.525,-1.965
+"Harding, Justin",72.544,-1.984
+"Brun, Julien",72.607,-2.047
+"Frances, Alexander George",72.63,-2.07
+"List, Danny",72.63,-2.07
+"Pineau, Pierre",72.653,-2.093
+"Walker, Jimmy",72.674,-2.114
+"Bekirian, Jean",72.683,-2.123
+"Wood, Chris",72.72,-2.16
+"Van Veen, Vince",72.736,-2.176
+"Follet-Smith, Benjamin",72.753,-2.193
+"Amat, Bastien",72.754,-2.194
+"Donaldson, Jamie",72.883,-2.323
+"Knappe, Alexander",72.9,-2.34
+"Schwab, Matthias",72.911,-2.351
+"Strydom, Ockie",73.068,-2.508
+"De Vries, Wouter",73.22,-2.66
+"Reuter, Benjamin",73.533,-2.973
+"Fdez-Castano, Gonzalo",73.689,-3.129
+"Trainer, Martin",73.788,-3.228
+"Porsius, Davey",74.118,-3.558
+"Woltering, Scott",74.147,-3.587
+"Ruiter, Nevill",74.312,-3.752
+"Driessen, Bjorn",74.751,-4.191
+"Lafeber, Guus",74.777,-4.217
+"Verdonk, Aydan",74.925,-4.365
+"Kouwenaar, Koen",75.022,-4.462
