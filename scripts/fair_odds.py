@@ -108,7 +108,7 @@ def process(matchups_path: str, strokes_path: str, out_path: str) -> None:
                     if val and val != "null":
                         res[f"{book}_p1"] = val
                         payout = american_to_decimal(val)
-                        ev = fair_prob_p1 * payout - (1 - fair_prob_p1)
+                        ev = fair_prob_p1 * payout - 1
                         res[f"{book}_ev_p1"] = round(ev, 4)
                     else:
                         res[f"{book}_p1"] = ""

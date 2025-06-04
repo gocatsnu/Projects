@@ -29,7 +29,7 @@ The resulting CSV lists each player with the original and adjusted stroke projec
 For each listed matchup, the script uses DataGolf stroke projections to estimate a fair win probability. For markets where BetOnline, BetCris, or Pinnacle prices are missing, it pulls available odds from other sportsbooks. Each price is converted to an implied probability and its expected value (EV), calculated as:
 
 ```
-EV = fair_prob_p1 * payout - (1 - fair_prob_p1)
+EV = fair_prob_p1 * payout - 1
 ```
 where `payout` is the decimal return for a winning bet.
 
@@ -53,3 +53,17 @@ python3 scripts/scrape_live_scores.py --event_id 401234567 --output memorial_sco
 ```
 
 The resulting CSV lists each player and their score on holes 1–18. Empty fields indicate holes not yet played.
+
+## Evaluating Sportsbook Prices
+
+`scripts/model_ev.py` compares your model's probabilities for each golfer against the American-odds lines from multiple sportsbooks. It converts the odds to decimal form and computes expected value using
+
+```
+EV = prob * payout - 1
+```
+
+Any wager with EV above 6% is written to `outputs/model_positive_ev_klm_open.csv` sorted from highest to lowest. Run the helper with:
+
+```bash
+python3 scripts/model_ev.py
+```
