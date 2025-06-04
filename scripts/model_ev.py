@@ -62,21 +62,17 @@ MARKET_FILES = {
 }
 
 
+
 def compute_positive_ev(preds: dict, root: str, threshold: float = 0.06):
     """Return all wagers with EV above the given threshold."""
-    bets = []
-    for market, fname in MARKET_FILES.items():
-        path = Path(root) / fname
-        with open(path) as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                name = row['player_name'].strip()
-                if name not in preds:
-                    continue
-                prob = preds[name][market]
+=======
+def compute_best_ev(preds: dict, root: str):
+
+
                 for book in BOOKS:
                     odds = row.get(f"{book}_odds")
                     if not odds or odds in ("", "null"):
+
                         continue
                     payout = american_to_decimal(odds)
                     if payout is None:
@@ -92,6 +88,7 @@ def compute_positive_ev(preds: dict, root: str, threshold: float = 0.06):
                                 "ev": ev,
                             }
                         )
+
     bets.sort(key=lambda x: x['ev'], reverse=True)
     return bets
 
@@ -100,6 +97,7 @@ def main():
     preds = load_predictions("data/raw/KLM Open Simulation.csv")
     bets = compute_positive_ev(preds, "data/raw")
     out_path = Path('outputs/model_positive_ev_klm_open.csv')
+
     with open(out_path, 'w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['market', 'player', 'book', 'odds', 'ev'])
         writer.writeheader()
