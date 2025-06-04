@@ -51,27 +51,37 @@ def phi_inv(p):
 def load_strokes(path, use_adjusted=True, course=None):
     """Load strokes from a CSV. Optionally filter by course name."""
     data = {}
-    with open(path) as f:
+    with open(path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if course and row.get('COURSE NAME') and course not in row['COURSE NAME']:
+            # normalize header names for easier matching
+            row = {k.strip().upper().replace("_", " "): v for k, v in row.items()}
+
+            if course and row.get("COURSE NAME") and course not in row["COURSE NAME"]:
                 continue
-            if use_adjusted and 'ADJUSTED STROKES' in row:
-                val = row['ADJUSTED STROKES']
-            elif 'BASELINE STROKES' in row:
-                val = row['BASELINE STROKES']
+
+            if use_adjusted and "ADJUSTED STROKES" in row:
+                val = row["ADJUSTED STROKES"]
+            elif "BASELINE STROKES" in row:
+                val = row["BASELINE STROKES"]
             else:
-                val = row.get('STROKES PREDICTION')
-            if val is None or val == '':
+                val = row.get("STROKES PREDICTION")
+
+            if val is None or val == "":
                 continue
-            data[row['PLAYER NAME'].strip()] = float(val)
+
+            name = row.get("PLAYER NAME")
+            if not name:
+                continue
+            data[name.strip()] = float(val)
     return data
 
 def parse_matchups(path, strokes):
     pairs = []
-    with open(path) as f:
+    with open(path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
+            row = {k.strip().lower(): v for k, v in row.items()}
             p1 = row['name_p1'].strip()
             p2 = row['name_p2'].strip()
             probs = []
