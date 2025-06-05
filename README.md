@@ -21,6 +21,17 @@ python3 scripts/adjust_projections.py \
   --output "Adjusted Strokes Canadian Open 20250604.csv"
 ```
 
+For a LIV event (54 holes), include `--holes 54` and supply the LIV matchup files:
+
+```bash
+python3 scripts/adjust_projections.py \
+  --strokes "LIV Golf DG Thursday Strokes 20250605.csv" \
+  --matchups "LIV Virginia 54 Hole Matchup Odds 20250605.csv" \
+  --matchups "LIV VIrginia r1 matchup Odds 20250605.csv" \
+  --holes 54 \
+  --output "Adjusted Strokes LIV Virginia 20250605.csv"
+```
+
 The resulting CSV lists each player with the original and adjusted stroke projection.
 
 
