@@ -64,8 +64,10 @@ def load_strokes(path, use_adjusted=True, course=None):
                 val = row["ADJUSTED STROKES"]
             elif "BASELINE STROKES" in row:
                 val = row["BASELINE STROKES"]
-            else:
+            elif "STROKES PREDICTION" in row:
                 val = row.get("STROKES PREDICTION")
+            else:
+                val = row.get("STROKES")
 
             if val is None or val == "":
                 continue
@@ -76,7 +78,9 @@ def load_strokes(path, use_adjusted=True, course=None):
             data[name.strip()] = float(val)
     return data
 
-def parse_matchups(path, strokes):
+import math
+
+def parse_matchups(path, strokes, holes=72):
     pairs = []
     with open(path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
@@ -111,9 +115,11 @@ def parse_matchups(path, strokes):
             m = row.get('market', '').lower()
             if any(r in m for r in ('r1', 'r2', 'r3', 'r4')) or 'round' in m:
                 sigma_round = 2.5  # see pga_dispersion_model.md
-                sigma_diff = (2 ** 0.5) * sigma_round
+                sigma_diff = math.sqrt(2) * sigma_round
             else:
-                sigma_diff = 6.0
+                n_rounds = holes // 18
+                sigma_round = 2.5
+                sigma_diff = math.sqrt(n_rounds * 2) * sigma_round
             implied_diff = -sigma_diff * phi_inv(prob_p1)
             dg_diff = strokes[p1] - strokes[p2]
             pairs.append((p1,p2,dg_diff,implied_diff))
@@ -150,6 +156,8 @@ if __name__ == '__main__':
                         help='Output CSV path')
     parser.add_argument('--course', default=None,
                         help='If provided, filter strokes to rows containing this course name')
+    parser.add_argument('--holes', type=int, default=72,
+                        help='Number of holes for tournament matchups (default 72)')
     args = parser.parse_args()
 
     if not args.matchups:
@@ -159,7 +167,7 @@ if __name__ == '__main__':
     strokes = load_strokes(args.strokes, use_adjusted=True, course=args.course)
     pairs = []
     for mp in args.matchups:
-        pairs.extend(parse_matchups(mp, strokes))
+        pairs.extend(parse_matchups(mp, strokes, holes=args.holes))
     final = adjust_strokes(strokes, pairs)
 
     with open(args.output, 'w', newline='') as f:
