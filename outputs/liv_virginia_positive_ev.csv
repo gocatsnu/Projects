@@ -1,0 +1,24 @@
+market,player,book,odds,ev
+win,"Na, Kevin",fanduel,+21000,0.688
+top_5,"Steele, Brendan",bovada,+2200,0.679
+top_5,"Na, Kevin",bet365,+2600,0.647
+win,"Steele, Brendan",caesars,+15000,0.51
+top_5,"Stenson, Henrik",bet365,+3700,0.406
+top_10,"Na, Kevin",bet365,+825,0.3782
+win,"Kozuma, Jinichiro",caesars,+15000,0.359
+top_10,"Steele, Brendan",bovada,+700,0.344
+top_10,"Stenson, Henrik",bet365,+1100,0.212
+top_5,"Kozuma, Jinichiro",bet365,+1600,0.207
+win,"Stenson, Henrik",bet365,+30000,0.204
+win,"DeChambeau, Bryson",bet365,+450,0.199
+top_5,"Kokrak, Jason",draftkings,+1400,0.185
+top_10,"Kokrak, Jason",betonline,+550,0.17
+top_10,"Kozuma, Jinichiro",draftkings,+600,0.169
+top_5,"Kaymer, Martin",betway,+8000,0.134
+win,"Kokrak, Jason",draftkings,+10000,0.111
+win,"Herbert, Lucas",betcris,+2241,0.1003
+top_5,"DeChambeau, Bryson",unibet,+100,0.1
+top_10,"Howell III, Charles",draftkings,+450,0.078
+top_20,"Na, Kevin",bet365,+210,0.0757
+win,"Howell III, Charles",pinnacle,+8135,0.0705
+top_5,"Howell III, Charles",draftkings,+1100,0.068
