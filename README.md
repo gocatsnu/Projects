@@ -54,6 +54,19 @@ It outputs `Projected Fair Odds Charles Schwab 20250520.csv` containing the fair
 
 Production outputs from the scripts are saved in the `outputs/` directory. Those generated CSVs are typically the only outputs that get committed to version control.
 
+## Comparing Projections Across Rounds
+
+`scripts/compute_stroke_diff.py` reports the change in projected strokes between two adjusted files. Provide the pre‑tournament and pre‑round files and an output path:
+
+```bash
+python3 scripts/compute_stroke_diff.py \
+  "outputs/Adjusted Canadian Open DG Thursday Strokes 20250604.csv" \
+  "outputs/Adjusted Round Score Pre R2 Canadian Open 20250606.csv" \
+  "outputs/PreR1_vs_PreR2_Strokes_Diff Canadian Open 20250606.csv"
+```
+
+The resulting CSV lists each player with their pre‑round‑one strokes, pre‑round‑two strokes, and the difference between them.
+
 
 ## Scraping Live Scores
 
