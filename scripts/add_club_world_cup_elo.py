@@ -86,12 +86,28 @@ def main():
             e = lookup(row["Team"], euro_map)
             row["World_ELO"] = w["elo"] if w else ""
             row["Europe_ELO"] = e["elo"] if e else ""
+
+            if row["World_ELO"] and row["Europe_ELO"]:
+                world = float(row["World_ELO"])
+                euro = float(row["Europe_ELO"])
+                row["Adjusted_ELO"] = round(0.8 * euro + 0.2 * world)
+            else:
+                row["Adjusted_ELO"] = row["World_ELO"]
+
             output_rows.append(row)
 
     out_path = "data/raw/2025_Club_World_Cup_Teams_with_ELO.csv"
     with open(out_path, "w", newline="") as f:
         writer = csv.DictWriter(
-            f, fieldnames=["Team", "Group", "Country", "World_ELO", "Europe_ELO"]
+            f,
+            fieldnames=[
+                "Team",
+                "Group",
+                "Country",
+                "World_ELO",
+                "Europe_ELO",
+                "Adjusted_ELO",
+            ],
         )
         writer.writeheader()
         writer.writerows(output_rows)
