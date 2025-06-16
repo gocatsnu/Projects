@@ -91,3 +91,18 @@ Any wager with EV above 6% is written to `outputs/model_positive_ev_klm_open.csv
 ```bash
 python3 scripts/model_ev.py
 ```
+
+## Club World Cup Simulation
+
+`scripts/simulate_cwc.py` runs a Monte Carlo simulation of the 2025 FIFA Club
+World Cup using ELO-based win probabilities. After printing each team's stage
+probabilities to the console, it writes a CSV of the aggregated results to
+`outputs/cwc_simulation_results.csv`.
+
+Run the simulation with:
+
+```bash
+python3 scripts/simulate_cwc.py
+```
+
+Look for the resulting CSV inside the `outputs/` directory.
