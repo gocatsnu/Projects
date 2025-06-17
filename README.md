@@ -101,3 +101,19 @@ python3 scripts/fetch_college_football_games.py --api_key YOUR_KEY --output ncaa
 ```
 
 The script saves the JSON response so you can analyze the lines offline.
+
+## Updating SP+ Ratings with Market Odds
+
+`scripts/update_sp_plus_from_odds.py` adjusts Bill Connelly's SP+ team ratings to
+better reflect the betting market. Provide the latest SP+ CSV dump, a games JSON
+file from the Odds API, and an output path:
+
+```bash
+python3 scripts/update_sp_plus_from_odds.py \
+  --sp_csv data/raw/SP+20250615.csv \
+  --odds_json data/raw/college_football_games_2025-06-16.json \
+  --output outputs/Updated_SP_Plus.csv
+```
+
+The resulting CSV lists each team with its previous SP+ value, the market-adj
+usted rating, and the change in points.
