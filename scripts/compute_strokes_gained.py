@@ -1,9 +1,31 @@
+import argparse
 import csv
-import sys
 
-input_path = sys.argv[1]
-output_path = sys.argv[2]
-avg_score = 73.05
+parser = argparse.ArgumentParser(
+    description="Compute strokes gained from a strokes projection CSV"
+)
+parser.add_argument("input_path", help="CSV with baseline/adjusted strokes")
+parser.add_argument("output_path", help="Where to write the strokes gained file")
+parser.add_argument(
+    "--avg-score",
+    dest="avg_score",
+    type=float,
+    default=73.05,
+    help="Average score used as baseline (default 73.05)",
+)
+parser.add_argument(
+    "--field-adjust",
+    dest="field_adjust",
+    type=float,
+    default=0.0,
+    help="Additional strokes gained adjustment for field strength",
+)
+args = parser.parse_args()
+
+input_path = args.input_path
+output_path = args.output_path
+avg_score = args.avg_score
+field_adjust = args.field_adjust
 
 rows = []
 with open(input_path, encoding='utf-8-sig') as f:
@@ -18,7 +40,7 @@ with open(input_path, encoding='utf-8-sig') as f:
             continue
         baseline = row.get('BASELINE STROKES')
         baseline = float(baseline) if baseline else None
-        gained = round(avg_score - adjusted, 3)
+        gained = round(avg_score - adjusted + field_adjust, 3)
         if baseline is not None:
             rows.append([name.strip(), baseline, adjusted, gained])
         else:
