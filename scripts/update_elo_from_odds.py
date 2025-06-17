@@ -42,22 +42,36 @@ def read_elos(path: str) -> dict:
 
 
 def parse_events(path: str) -> list:
-    """Return list of events with averaged implied probabilities."""
+    """Return list of events with averaged implied probabilities.
+
+    When the odds file contains multiple snapshots of the same match we keep
+    only the most recent one. Matches involving Auckland City are ignored.
+    """
     with open(path) as f:
         data = json.load(f)
 
-    events = []
+    # Deduplicate events by ID, keeping the last occurrence which has the most
+    # recent odds information.
+    latest = {}
     for event in data:
-        # Normalise team names so they match those in the ELO ratings table
+        latest[event.get("id")] = event
+
+    events = []
+    for event in latest.values():
         home = fix_name(event.get("home_team"))
         away = fix_name(event.get("away_team"))
+        if "Auckland City" in (home, away):
+            continue
         start = event.get("commence_time")
         probs = []  # (home, draw, away)
         for bm in event.get("bookmakers", []):
             for market in bm.get("markets", []):
                 if market.get("key") != "h2h":
                     continue
-                prices = {fix_name(o["name"]): o.get("price") for o in market.get("outcomes", [])}
+                prices = {
+                    fix_name(o["name"]): o.get("price")
+                    for o in market.get("outcomes", [])
+                }
                 if home in prices and away in prices and "Draw" in prices:
                     h = 1 / prices[home]
                     a = 1 / prices[away]
@@ -80,6 +94,7 @@ def parse_events(path: str) -> list:
                 "away_prob": away_p,
             }
         )
+
     events.sort(key=lambda e: e["start"])
     return events
 
@@ -137,7 +152,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--odds_json",
-        default="data/raw/club_world_cup_odds2020616.json",
+        default="data/raw/club_world_cup_odds20250617.json",
         help="JSON file with Club World Cup odds",
     )
     parser.add_argument(
