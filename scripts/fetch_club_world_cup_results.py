@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import requests
 
+
 BASE_URL = "https://www.thesportsdb.com/api/v1/json/1"
 
 
@@ -19,9 +20,12 @@ def fetch_results(league_id: str, season: str) -> list:
     ]
 
 
+
 def main() -> None:
     parser = argparse.ArgumentParser(
+
         description="Download Club World Cup results from TheSportsDB",
+
     )
     parser.add_argument(
         "--output",
@@ -29,6 +33,7 @@ def main() -> None:
         help="Output JSON file",
     )
     parser.add_argument(
+
         "--league_id",
         default="1234",
         help="TheSportsDB league id for the Club World Cup",
