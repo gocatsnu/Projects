@@ -81,66 +81,87 @@ def load_strokes(path, use_adjusted=True, course=None):
 import math
 
 def parse_matchups(path, strokes, holes=72):
-    pairs = []
+    """Parse matchup CSV and return implied stroke differences.
+
+    Duplicate rows for the same player pair are averaged so that each
+    matchup influences the adjustment only once.
+    """
+    agg = defaultdict(lambda: [0.0, 0])  # (p1,p2) -> [sum_implied_diff, count]
+
     with open(path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
             row = {k.strip().lower(): v for k, v in row.items()}
             p1 = row['name_p1'].strip()
             p2 = row['name_p2'].strip()
+
             probs = []
-            for col in ('betonline_p1','betcris_p1','pinnacle_p1'):
+            for col in ('betonline_p1', 'betcris_p1', 'pinnacle_p1'):
                 val = row[col]
-                if val and val != 'null':
+                if not val or val == 'null':
+                    continue
+                try:
+                    p1_prob = american_to_prob(val)
+                except Exception:
+                    continue
+                # normalize for the book's margin when possible
+                val2 = row[col.replace('_p1', '_p2')]
+                if val2 and val2 != 'null':
                     try:
-                        p1_prob = american_to_prob(val)
+                        p2_prob = american_to_prob(val2)
+                        s = p1_prob + p2_prob
+                        if s > 0:
+                            p1_prob = p1_prob / s
                     except Exception:
-                        continue
-                    # if paired p2 price exists, normalize for margin
-                    val2 = row[col.replace('_p1','_p2')]
-                    if val2 and val2 != 'null':
-                        try:
-                            p2_prob = american_to_prob(val2)
-                            s = p1_prob + p2_prob
-                            if s > 0:
-                                p1_prob = p1_prob/s
-                        except Exception:
-                            pass
-                    probs.append(p1_prob)
+                        pass
+                probs.append(p1_prob)
+
             if not probs:
                 continue
             if p1 not in strokes or p2 not in strokes:
                 continue
+
             prob_p1 = sum(probs) / len(probs)
             m = row.get('market', '').lower()
             if any(r in m for r in ('r1', 'r2', 'r3', 'r4')) or 'round' in m:
                 sigma_round = 2.5  # see pga_dispersion_model.md
                 sigma_diff = math.sqrt(2) * sigma_round
+                scale = 1  # already single-round
             else:
                 n_rounds = holes // 18
                 sigma_round = 2.5
                 sigma_diff = math.sqrt(n_rounds * 2) * sigma_round
-            implied_diff = -sigma_diff * phi_inv(prob_p1)
-            dg_diff = strokes[p1] - strokes[p2]
-            pairs.append((p1,p2,dg_diff,implied_diff))
+                # convert tournament difference to per-round difference
+                scale = 1 / n_rounds if n_rounds else 1
+
+            implied_diff = (-sigma_diff * phi_inv(prob_p1)) * scale
+            key = (p1, p2)
+            agg[key][0] += implied_diff
+            agg[key][1] += 1
+
+    pairs = []
+    for (p1, p2), (total_diff, count) in agg.items():
+        dg_diff = strokes[p1] - strokes[p2]
+        pairs.append((p1, p2, dg_diff, total_diff / count))
+
     return pairs
 
-def adjust_strokes(strokes, pairs):
+def adjust_strokes(strokes, pairs, iters=25, lr=0.5):
+    """Iteratively adjust strokes so all matchups are satisfied in aggregate."""
+
     adj = defaultdict(float)
-    cnt = defaultdict(int)
-    for a,b,dg,imp in pairs:
-        delta = imp - dg
-        adj[a] += delta/2
-        adj[b] -= delta/2
-        cnt[a]+=1
-        cnt[b]+=1
-    result = {}
-    for name,val in strokes.items():
-        if cnt[name]:
-            result[name] = val + adj[name]/cnt[name]
-        else:
-            result[name] = val
-    return result
+    players = set(strokes)
+
+    for _ in range(iters):
+        for a, b, _, imp in pairs:
+            # predicted difference with current adjustments
+            pred = (strokes[a] + adj[a]) - (strokes[b] + adj[b])
+            err = imp - pred
+            # move each player half the error in opposite directions
+            adj[a] += lr * err / 2
+            adj[b] -= lr * err / 2
+
+    return {p: strokes[p] + adj[p] for p in players}
 
 if __name__ == '__main__':
     import argparse
