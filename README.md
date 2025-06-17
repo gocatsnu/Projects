@@ -91,3 +91,13 @@ Any wager with EV above 6% is written to `outputs/model_positive_ev_klm_open.csv
 ```bash
 python3 scripts/model_ev.py
 ```
+
+## Fetching College Football Games
+
+`scripts/fetch_college_football_games.py` downloads upcoming NCAA football games from The Odds API. Provide your API key and an output path:
+
+```bash
+python3 scripts/fetch_college_football_games.py --api_key YOUR_KEY --output ncaaf_games.json
+```
+
+The script saves the JSON response so you can analyze the lines offline.
