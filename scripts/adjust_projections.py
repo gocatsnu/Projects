@@ -81,36 +81,46 @@ def load_strokes(path, use_adjusted=True, course=None):
 import math
 
 def parse_matchups(path, strokes, holes=72):
-    pairs = []
+    """Parse matchup CSV and return implied stroke differences.
+
+    Duplicate rows for the same player pair are averaged so that each
+    matchup influences the adjustment only once.
+    """
+    agg = defaultdict(lambda: [0.0, 0])  # (p1,p2) -> [sum_implied_diff, count]
+
     with open(path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
             row = {k.strip().lower(): v for k, v in row.items()}
             p1 = row['name_p1'].strip()
             p2 = row['name_p2'].strip()
+
             probs = []
-            for col in ('betonline_p1','betcris_p1','pinnacle_p1'):
+            for col in ('betonline_p1', 'betcris_p1', 'pinnacle_p1'):
                 val = row[col]
-                if val and val != 'null':
+                if not val or val == 'null':
+                    continue
+                try:
+                    p1_prob = american_to_prob(val)
+                except Exception:
+                    continue
+                # normalize for the book's margin when possible
+                val2 = row[col.replace('_p1', '_p2')]
+                if val2 and val2 != 'null':
                     try:
-                        p1_prob = american_to_prob(val)
+                        p2_prob = american_to_prob(val2)
+                        s = p1_prob + p2_prob
+                        if s > 0:
+                            p1_prob = p1_prob / s
                     except Exception:
-                        continue
-                    # if paired p2 price exists, normalize for margin
-                    val2 = row[col.replace('_p1','_p2')]
-                    if val2 and val2 != 'null':
-                        try:
-                            p2_prob = american_to_prob(val2)
-                            s = p1_prob + p2_prob
-                            if s > 0:
-                                p1_prob = p1_prob/s
-                        except Exception:
-                            pass
-                    probs.append(p1_prob)
+                        pass
+                probs.append(p1_prob)
+
             if not probs:
                 continue
             if p1 not in strokes or p2 not in strokes:
                 continue
+
             prob_p1 = sum(probs) / len(probs)
             m = row.get('market', '').lower()
             if any(r in m for r in ('r1', 'r2', 'r3', 'r4')) or 'round' in m:
@@ -120,9 +130,17 @@ def parse_matchups(path, strokes, holes=72):
                 n_rounds = holes // 18
                 sigma_round = 2.5
                 sigma_diff = math.sqrt(n_rounds * 2) * sigma_round
+
             implied_diff = -sigma_diff * phi_inv(prob_p1)
-            dg_diff = strokes[p1] - strokes[p2]
-            pairs.append((p1,p2,dg_diff,implied_diff))
+            key = (p1, p2)
+            agg[key][0] += implied_diff
+            agg[key][1] += 1
+
+    pairs = []
+    for (p1, p2), (total_diff, count) in agg.items():
+        dg_diff = strokes[p1] - strokes[p2]
+        pairs.append((p1, p2, dg_diff, total_diff / count))
+
     return pairs
 
 def adjust_strokes(strokes, pairs):
