@@ -143,15 +143,24 @@ def parse_matchups(path, strokes, holes=72):
 
     return pairs
 
-def adjust_strokes(strokes, pairs):
+def adjust_strokes(strokes, pairs, max_delta=1.5):
+    """Apply implied matchup adjustments to strokes.
+
+    The ``max_delta`` parameter caps the contribution of any single matchup
+    so that extreme lines don't overwhelm the baseline projection.  Deltas are
+    passed through a scaled ``tanh`` function to smoothly limit values.
+    """
     adj = defaultdict(float)
     cnt = defaultdict(int)
-    for a,b,dg,imp in pairs:
+    for a, b, dg, imp in pairs:
         delta = imp - dg
-        adj[a] += delta/2
-        adj[b] -= delta/2
-        cnt[a]+=1
-        cnt[b]+=1
+        if max_delta:
+            # smoothly constrain large moves to mitigate underdog bias
+            delta = math.tanh(delta / max_delta) * max_delta
+        adj[a] += delta / 2
+        adj[b] -= delta / 2
+        cnt[a] += 1
+        cnt[b] += 1
     result = {}
     for name,val in strokes.items():
         if cnt[name]:
@@ -176,6 +185,8 @@ if __name__ == '__main__':
                         help='If provided, filter strokes to rows containing this course name')
     parser.add_argument('--holes', type=int, default=72,
                         help='Number of holes for tournament matchups (default 72)')
+    parser.add_argument('--max-delta', type=float, default=1.5,
+                        help='Maximum per-matchup adjustment in strokes (tanh damped)')
     args = parser.parse_args()
 
     if not args.matchups:
@@ -186,7 +197,7 @@ if __name__ == '__main__':
     pairs = []
     for mp in args.matchups:
         pairs.extend(parse_matchups(mp, strokes, holes=args.holes))
-    final = adjust_strokes(strokes, pairs)
+    final = adjust_strokes(strokes, pairs, max_delta=args.max_delta)
 
     with open(args.output, 'w', newline='') as f:
         writer = csv.writer(f)
