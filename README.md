@@ -117,3 +117,14 @@ python3 scripts/update_sp_plus_from_odds.py \
 
 The resulting CSV lists each team with its previous SP+ value, the market-adj
 usted rating, and the change in points.
+
+## TeamCrafters Rosters
+
+Use the helper scripts to convert the TeamCrafters roster dump into CSV form. Example:
+
+```bash
+python3 scripts/convert_teamcrafters_json_to_csv.py data/raw/teamcrafters_cfb26_complete.json outputs/teamcrafters_cfb26_complete.csv
+python3 scripts/list_missing_teams.py data/raw/teamcrafters_cfb26_complete.json outputs/teamcrafters_missing_teams.csv
+```
+
+The first command writes every player with their team, position, and overall rating. The second lists the teams that have no players.
