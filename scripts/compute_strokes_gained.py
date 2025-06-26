@@ -7,6 +7,12 @@ parser = argparse.ArgumentParser(
 parser.add_argument("input_path", help="CSV with baseline/adjusted strokes")
 parser.add_argument("output_path", help="Where to write the strokes gained file")
 parser.add_argument(
+    "--info",
+    dest="info_path",
+    default=None,
+    help="Tournament info CSV with Course Par, Field Strength, and Scoring Prediction",
+)
+parser.add_argument(
     "--avg-score",
     dest="avg_score",
     type=float,
@@ -19,6 +25,7 @@ parser.add_argument(
     type=float,
     default=0.0,
     help="Additional strokes gained adjustment for field strength",
+
 )
 parser.add_argument(
     "--tournament-info",
@@ -30,7 +37,21 @@ args = parser.parse_args()
 input_path = args.input_path
 output_path = args.output_path
 avg_score = args.avg_score
-field_adjust = args.field_adjust
+
+info_path = args.info_path
+if info_path:
+    info = {}
+    with open(info_path, encoding="utf-8-sig") as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if len(row) < 3:
+                continue
+            key = row[1].strip().lower()
+            info[key] = row[2].strip()
+    par = float(info.get("course par", 72))
+    field = float(info.get("field strength", 0))
+    scoring = float(info.get("scoring prediction", 0))
+    avg_score = par + field + scoring
 
 if args.tournament_info:
     info = {}
@@ -64,7 +85,7 @@ with open(input_path, encoding='utf-8-sig') as f:
             continue
         baseline = row.get('BASELINE STROKES')
         baseline = float(baseline) if baseline else None
-        gained = round(avg_score - adjusted + field_adjust, 3)
+        gained = round(avg_score - adjusted, 3)
         if baseline is not None:
             rows.append([name.strip(), baseline, adjusted, gained])
         else:
