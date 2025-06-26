@@ -66,6 +66,8 @@ def load_strokes(path, use_adjusted=True, course=None):
                 val = row["BASELINE STROKES"]
             elif "STROKES PREDICTION" in row:
                 val = row.get("STROKES PREDICTION")
+            elif "PROJECTED STROKES" in row:
+                val = row.get("PROJECTED STROKES")
             else:
                 val = row.get("STROKES")
 
