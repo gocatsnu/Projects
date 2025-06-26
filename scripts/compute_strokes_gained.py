@@ -16,8 +16,21 @@ parser.add_argument(
     "--avg-score",
     dest="avg_score",
     type=float,
-    default=73.05,
-    help="Fallback average score if --info is not provided",
+    default=None,
+    help="Average baseline score when --tournament-info not given",
+)
+parser.add_argument(
+    "--field-adjust",
+    dest="field_adjust",
+    type=float,
+    default=0.0,
+    help="Additional strokes gained adjustment for field strength",
+
+)
+parser.add_argument(
+    "--tournament-info",
+    dest="tournament_info",
+    help="CSV with Course Par, Field Strength, and Scoring Prediction",
 )
 args = parser.parse_args()
 
@@ -39,6 +52,25 @@ if info_path:
     field = float(info.get("field strength", 0))
     scoring = float(info.get("scoring prediction", 0))
     avg_score = par + field + scoring
+
+if args.tournament_info:
+    info = {}
+    with open(args.tournament_info, encoding="utf-8-sig") as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if len(row) < 3:
+                continue
+            key = row[1].strip().lower()
+            info[key] = row[2].strip()
+    try:
+        par = float(info.get("course par", 72))
+        field = float(info.get("field strength", 0))
+        scoring = float(info.get("scoring prediction", 0))
+        avg_score = par + field + scoring
+    except Exception:
+        pass
+if avg_score is None:
+    avg_score = 72.0
 
 rows = []
 with open(input_path, encoding='utf-8-sig') as f:
