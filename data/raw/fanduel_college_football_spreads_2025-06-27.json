@@ -1,0 +1,3401 @@
+[
+  {
+    "id": "20740de7481ec1f20c2efbc30852f6c6",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-23T16:00:00Z",
+    "home_team": "Iowa State Cyclones",
+    "away_team": "Kansas State Wildcats",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -115,
+                "point": 3.5
+              },
+              {
+                "name": "Kansas State Wildcats",
+                "price": -105,
+                "point": -3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bc9ca531af3bbd6fcb8271267655450e",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-23T17:00:00Z",
+    "home_team": "Kansas Jayhawks",
+    "away_team": "Fresno State Bulldogs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Fresno State Bulldogs",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Kansas Jayhawks",
+                "price": -110,
+                "point": -13.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f88be3eb99624912fed9f8dfc9c3b017",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-23T17:00:00Z",
+    "home_team": "Hawaii Rainbow Warriors",
+    "away_team": "Stanford Cardinal",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Hawaii Rainbow Warriors",
+                "price": -110,
+                "point": 2.5
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": -110,
+                "point": -2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "69b92f6edcf58ce33ac39d43bc1f21a5",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-23T17:00:00Z",
+    "home_team": "Western Kentucky Hilltoppers",
+    "away_team": "Sam Houston State Bearkats",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Sam Houston State Bearkats",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Western Kentucky Hilltoppers",
+                "price": -110,
+                "point": -9.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f2cf826d5734af1bedd0fb1510a7605c",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-28T16:00:00Z",
+    "home_team": "Nebraska Cornhuskers",
+    "away_team": "Cincinnati Bearcats",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bearcats",
+                "price": -105,
+                "point": 6.5
+              },
+              {
+                "name": "Nebraska Cornhuskers",
+                "price": -115,
+                "point": -6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "03799e82b32ca4fb9dd248a037685d38",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-28T17:00:00Z",
+    "home_team": "Akron Zips",
+    "away_team": "Wyoming Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Akron Zips",
+                "price": -110,
+                "point": 8.5
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": -110,
+                "point": -8.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5287f56aa50eff29efc0d8c19c41ec01",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-28T17:00:00Z",
+    "home_team": "Minnesota Golden Gophers",
+    "away_team": "Buffalo Bulls",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bulls",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Minnesota Golden Gophers",
+                "price": -110,
+                "point": -16.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6e308b5e56e38cfe79a4f6b4783e1bfc",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-28T17:00:00Z",
+    "home_team": "NC State Wolfpack",
+    "away_team": "East Carolina Pirates",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "East Carolina Pirates",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "NC State Wolfpack",
+                "price": -110,
+                "point": -11.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5b752439ba344f0fbe7c47649e41f2ad",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-28T17:00:00Z",
+    "home_team": "UCF Knights",
+    "away_team": "Jacksonville State Gamecocks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville State Gamecocks",
+                "price": -115,
+                "point": 17.5
+              },
+              {
+                "name": "UCF Knights",
+                "price": -105,
+                "point": -17.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5258088fbe3a7c3b887cc597a1f0d59d",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-28T17:00:00Z",
+    "home_team": "Wisconsin Badgers",
+    "away_team": "Miami (OH) RedHawks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Miami (OH) RedHawks",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Wisconsin Badgers",
+                "price": -110,
+                "point": -17.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0340d587efabc6bbf7114392cb51dfd5",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-28T17:00:00Z",
+    "home_team": "Rutgers Scarlet Knights",
+    "away_team": "Ohio Bobcats",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Ohio Bobcats",
+                "price": -108,
+                "point": 10.5
+              },
+              {
+                "name": "Rutgers Scarlet Knights",
+                "price": -112,
+                "point": -10.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ba3ec216f7117a8f9acbef2fe092c87b",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-28T21:30:00Z",
+    "home_team": "South Florida Bulls",
+    "away_team": "Boise State Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Boise State Broncos",
+                "price": -105,
+                "point": -9.5
+              },
+              {
+                "name": "South Florida Bulls",
+                "price": -115,
+                "point": 9.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3a175beb7105d6a842ae58311a15f4d1",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-29T17:00:00Z",
+    "home_team": "Charlotte 49ers",
+    "away_team": "Appalachian State Mountaineers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Appalachian State Mountaineers",
+                "price": -105,
+                "point": -8.5
+              },
+              {
+                "name": "Charlotte 49ers",
+                "price": -115,
+                "point": 8.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6b720706eed963bd287b802d86a85024",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-29T17:00:00Z",
+    "home_team": "Wake Forest Demon Deacons",
+    "away_team": "Kennesaw State Owls",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Kennesaw State Owls",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Wake Forest Demon Deacons",
+                "price": -110,
+                "point": -17.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6805d37180d92fd870ab5fac57eebee5",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-29T17:00:00Z",
+    "home_team": "Sam Houston State Bearkats",
+    "away_team": "UNLV Rebels",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Sam Houston State Bearkats",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "UNLV Rebels",
+                "price": -110,
+                "point": -12.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "091114ab96129401a22aa7b2ba683ec1",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T00:00:00Z",
+    "home_team": "Baylor Bears",
+    "away_team": "Auburn Tigers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Auburn Tigers",
+                "price": -110,
+                "point": -2.5
+              },
+              {
+                "name": "Baylor Bears",
+                "price": -110,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "559c446a5e9976d63eb7f67a3e189be4",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T02:30:00Z",
+    "home_team": "San Jose State Spartans",
+    "away_team": "Central Michigan Chippewas",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Central Michigan Chippewas",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "San Jose State Spartans",
+                "price": -110,
+                "point": -11.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5c32c6337881a5345e232f266665e6dd",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T16:00:00Z",
+    "home_team": "Florida State Seminoles",
+    "away_team": "Alabama Crimson Tide",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": -115,
+                "point": -12.5
+              },
+              {
+                "name": "Florida State Seminoles",
+                "price": -105,
+                "point": 12.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a21e71cf77c563760aa9ca01826c2583",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T16:00:00Z",
+    "home_team": "Purdue Boilermakers",
+    "away_team": "Ball State Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Ball State Cardinals",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": -110,
+                "point": -16.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "09043eb30bb7d92001afc88201788f05",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T16:00:00Z",
+    "home_team": "Colorado Buffaloes",
+    "away_team": "Georgia Tech Yellow Jackets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Colorado Buffaloes",
+                "price": -110,
+                "point": 4.5
+              },
+              {
+                "name": "Georgia Tech Yellow Jackets",
+                "price": -110,
+                "point": -4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f412c431e3f6d5b0645351971479df7b",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T16:00:00Z",
+    "home_team": "Maryland Terrapins",
+    "away_team": "Florida Atlantic Owls",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Florida Atlantic Owls",
+                "price": -105,
+                "point": 16.5
+              },
+              {
+                "name": "Maryland Terrapins",
+                "price": -115,
+                "point": -16.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0ee5bcc393d7591e62d85d0090796cdc",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T16:00:00Z",
+    "home_team": "Southern Mississippi Golden Eagles",
+    "away_team": "Mississippi State Bulldogs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Mississippi State Bulldogs",
+                "price": -110,
+                "point": -12.5
+              },
+              {
+                "name": "Southern Mississippi Golden Eagles",
+                "price": -110,
+                "point": 12.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "108112065d320b9bc531736b51f1053f",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T16:00:00Z",
+    "home_team": "Tulane Green Wave",
+    "away_team": "Northwestern Wildcats",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Northwestern Wildcats",
+                "price": -110,
+                "point": 6.5
+              },
+              {
+                "name": "Tulane Green Wave",
+                "price": -110,
+                "point": -6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "243c8fc42fd9e0d035d2f904384185e4",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T16:00:00Z",
+    "home_team": "Ohio State Buckeyes",
+    "away_team": "Texas Longhorns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Ohio State Buckeyes",
+                "price": -122,
+                "point": -2.5
+              },
+              {
+                "name": "Texas Longhorns",
+                "price": 100,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c3d1a98456d7bcfc2273efc4c64a6cd6",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T16:45:00Z",
+    "home_team": "Kentucky Wildcats",
+    "away_team": "Toledo Rockets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Kentucky Wildcats",
+                "price": -105,
+                "point": -10.5
+              },
+              {
+                "name": "Toledo Rockets",
+                "price": -115,
+                "point": 10.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b9668bd42d810933d0a2d1de428fc5fd",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Arizona Wildcats",
+    "away_team": "Hawaii Rainbow Warriors",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -115,
+                "point": -13.5
+              },
+              {
+                "name": "Hawaii Rainbow Warriors",
+                "price": -105,
+                "point": 13.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9315c835a22a931d29e34ef0f15c9429",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Clemson Tigers",
+    "away_team": "LSU Tigers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Clemson Tigers",
+                "price": -110,
+                "point": -3.5
+              },
+              {
+                "name": "LSU Tigers",
+                "price": -110,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6af1e17d7174b1cba28f644a02600e3b",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Virginia Cavaliers",
+    "away_team": "Coastal Carolina Chanticleers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Coastal Carolina Chanticleers",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -110,
+                "point": -12.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d52b301586f5ce0e1e8b6f3dad18af47",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Washington Huskies",
+    "away_team": "Colorado State Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Colorado State Rams",
+                "price": -110,
+                "point": 18.5
+              },
+              {
+                "name": "Washington Huskies",
+                "price": -110,
+                "point": -18.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d66929ae5687924dabdd2c8b06593a44",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Texas State Bobcats",
+    "away_team": "Eastern Michigan Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Eastern Michigan Eagles",
+                "price": -115,
+                "point": 14.5
+              },
+              {
+                "name": "Texas State Bobcats",
+                "price": -105,
+                "point": -14.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d25adc138f4395cd1cd3a31270362764",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Fresno State Bulldogs",
+    "away_team": "Georgia Southern Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Fresno State Bulldogs",
+                "price": -108,
+                "point": -2.5
+              },
+              {
+                "name": "Georgia Southern Eagles",
+                "price": -112,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "663302976d25e5e68e83f286db1418f6",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Georgia Bulldogs",
+    "away_team": "Marshall Thundering Herd",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Georgia Bulldogs",
+                "price": -115,
+                "point": -38.5
+              },
+              {
+                "name": "Marshall Thundering Herd",
+                "price": -105,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "095df3e0d5e42c81f2ba3918568d6051",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Ole Miss Rebels",
+    "away_team": "Georgia State Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Georgia State Panthers",
+                "price": -110,
+                "point": 37.5
+              },
+              {
+                "name": "Ole Miss Rebels",
+                "price": -110,
+                "point": -37.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a7e9ac25c43abf7a563c1c978d805b4b",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Indiana Hoosiers",
+    "away_team": "Old Dominion Monarchs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Indiana Hoosiers",
+                "price": -110,
+                "point": -23.5
+              },
+              {
+                "name": "Old Dominion Monarchs",
+                "price": -110,
+                "point": 23.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d818fb3e1ad167a0802887763f7699e8",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Louisiana Ragin Cajuns",
+    "away_team": "Rice Owls",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Louisiana Ragin Cajuns",
+                "price": -105,
+                "point": -14.5
+              },
+              {
+                "name": "Rice Owls",
+                "price": -115,
+                "point": 14.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cc964607d7c521019e0c91768bb2c024",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Michigan State Spartans",
+    "away_team": "Western Michigan Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Michigan State Spartans",
+                "price": -110,
+                "point": -18.5
+              },
+              {
+                "name": "Western Michigan Broncos",
+                "price": -110,
+                "point": 18.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f146d157f41678d4d8d9ffc7bade8af6",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Michigan Wolverines",
+    "away_team": "New Mexico Lobos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Michigan Wolverines",
+                "price": -115,
+                "point": -34.5
+              },
+              {
+                "name": "New Mexico Lobos",
+                "price": -105,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9d06a9977b4d0299fa17257634f2123d",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "USC Trojans",
+    "away_team": "Missouri State Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Missouri State Bears",
+                "price": -110,
+                "point": 32.5
+              },
+              {
+                "name": "USC Trojans",
+                "price": -110,
+                "point": -32.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2a51da70ed1084d9bce9f024d0a69a0",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Penn State Nittany Lions",
+    "away_team": "Nevada Wolf Pack",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Nevada Wolf Pack",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Penn State Nittany Lions",
+                "price": -110,
+                "point": -45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a6df0cb69b95b8eb8c8bb7520471d978",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "UMass Minutemen",
+    "away_team": "Temple Owls",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Temple Owls",
+                "price": -112,
+                "point": -1.5
+              },
+              {
+                "name": "UMass Minutemen",
+                "price": -108,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "99aa25f6c7299ea1a9b444ef813a9770",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Texas A&M Aggies",
+    "away_team": "UTSA Roadrunners",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Texas A&M Aggies",
+                "price": -115,
+                "point": -20.5
+              },
+              {
+                "name": "UTSA Roadrunners",
+                "price": -105,
+                "point": 20.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "57de482f01e31e5f31e1010a072d8369",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "UCLA Bruins",
+    "away_team": "Utah Utes",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "UCLA Bruins",
+                "price": -115,
+                "point": 4.5
+              },
+              {
+                "name": "Utah Utes",
+                "price": -105,
+                "point": -4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ce5e306794394e11f8e703c89ac39dcb",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T17:00:00Z",
+    "home_team": "Utah State Aggies",
+    "away_team": "UTEP Miners",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Utah State Aggies",
+                "price": -115,
+                "point": -3.5
+              },
+              {
+                "name": "UTEP Miners",
+                "price": -105,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eb08e0869675a469f223fefa2b7c1aac",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-30T18:00:00Z",
+    "home_team": "Syracuse Orange",
+    "away_team": "Tennessee Volunteers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Syracuse Orange",
+                "price": -105,
+                "point": 12.5
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": -115,
+                "point": -12.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5d864fb9feccc540dfedf3f1141bc4cb",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-31T02:30:00Z",
+    "home_team": "Oregon State Beavers",
+    "away_team": "California Golden Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "California Golden Bears",
+                "price": -122,
+                "point": 3.5
+              },
+              {
+                "name": "Oregon State Beavers",
+                "price": 100,
+                "point": -3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1803d7f4d655fb3f6d5f39fcfd893b96",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-31T17:00:00Z",
+    "home_team": "South Carolina Gamecocks",
+    "away_team": "Virginia Tech Hokies",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "South Carolina Gamecocks",
+                "price": -110,
+                "point": -9.5
+              },
+              {
+                "name": "Virginia Tech Hokies",
+                "price": -110,
+                "point": 9.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8c138af84cb5ff1e6c4e11b591ff041f",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-08-31T23:30:00Z",
+    "home_team": "Miami Hurricanes",
+    "away_team": "Notre Dame Fighting Irish",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Miami Hurricanes",
+                "price": -105,
+                "point": 2.5
+              },
+              {
+                "name": "Notre Dame Fighting Irish",
+                "price": -115,
+                "point": -2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9418aabb5edf415f4296c694fa210c3b",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-01T23:30:00Z",
+    "home_team": "North Carolina Tar Heels",
+    "away_team": "TCU Horned Frogs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "North Carolina Tar Heels",
+                "price": -118,
+                "point": 3.5
+              },
+              {
+                "name": "TCU Horned Frogs",
+                "price": -104,
+                "point": -3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d617ea38af0130201ac40d901bf13d0f",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-06T16:00:00Z",
+    "home_team": "SMU Mustangs",
+    "away_team": "Baylor Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Baylor Bears",
+                "price": -115,
+                "point": 6.5
+              },
+              {
+                "name": "SMU Mustangs",
+                "price": -105,
+                "point": -6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "22ef820a384ce82c9d0d9c530451b8ae",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-06T16:00:00Z",
+    "home_team": "Duke Blue Devils",
+    "away_team": "Illinois Fighting Illini",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": -114,
+                "point": 1.5
+              },
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -106,
+                "point": -1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "601f11a56ce690549ff1275c569cddab",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-06T16:00:00Z",
+    "home_team": "Iowa State Cyclones",
+    "away_team": "Iowa Hawkeyes",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Iowa Hawkeyes",
+                "price": -105,
+                "point": -1.5
+              },
+              {
+                "name": "Iowa State Cyclones",
+                "price": -115,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "60385595d3e501feeba3a45fafead46f",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-06T19:30:00Z",
+    "home_team": "Missouri Tigers",
+    "away_team": "Kansas Jayhawks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Kansas Jayhawks",
+                "price": -122,
+                "point": 7.5
+              },
+              {
+                "name": "Missouri Tigers",
+                "price": 100,
+                "point": -7.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5efdee187e4f412e747582a3c18f725b",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-06T23:30:00Z",
+    "home_team": "Oklahoma Sooners",
+    "away_team": "Michigan Wolverines",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Michigan Wolverines",
+                "price": -104,
+                "point": 2.5
+              },
+              {
+                "name": "Oklahoma Sooners",
+                "price": -118,
+                "point": -2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1e8f948c71b57bb3ab85019401680e55",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-13T16:00:00Z",
+    "home_team": "Georgia Tech Yellow Jackets",
+    "away_team": "Clemson Tigers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Clemson Tigers",
+                "price": -110,
+                "point": -8.5
+              },
+              {
+                "name": "Georgia Tech Yellow Jackets",
+                "price": -110,
+                "point": 8.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2f5eb17fc3460a510e64c0da17592c23",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-13T19:30:00Z",
+    "home_team": "Tennessee Volunteers",
+    "away_team": "Georgia Bulldogs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Georgia Bulldogs",
+                "price": -105,
+                "point": -7.5
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": -115,
+                "point": 7.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bd0a69e509effeb418dc2c02e2812904",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-13T19:30:00Z",
+    "home_team": "West Virginia Mountaineers",
+    "away_team": "Pittsburgh Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Panthers",
+                "price": -115,
+                "point": -2.5
+              },
+              {
+                "name": "West Virginia Mountaineers",
+                "price": -105,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b83c7f30440d9f80736b1b7cc5b2fa7f",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-13T23:30:00Z",
+    "home_team": "LSU Tigers",
+    "away_team": "Florida Gators",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Florida Gators",
+                "price": -105,
+                "point": 6.5
+              },
+              {
+                "name": "LSU Tigers",
+                "price": -115,
+                "point": -6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d20307e8474bbfe4a52934a6af6fe2d9",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-13T23:30:00Z",
+    "home_team": "Notre Dame Fighting Irish",
+    "away_team": "Texas A&M Aggies",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Notre Dame Fighting Irish",
+                "price": -104,
+                "point": -7.5
+              },
+              {
+                "name": "Texas A&M Aggies",
+                "price": -118,
+                "point": 7.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e12a027ef3182426888607f1aa77a6bc",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-20T16:00:00Z",
+    "home_team": "Miami Hurricanes",
+    "away_team": "Florida Gators",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Florida Gators",
+                "price": -110,
+                "point": 3.5
+              },
+              {
+                "name": "Miami Hurricanes",
+                "price": -110,
+                "point": -3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e7873a03eb97c9a032544e448cc2d55c",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-20T19:30:00Z",
+    "home_team": "Nebraska Cornhuskers",
+    "away_team": "Michigan Wolverines",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Michigan Wolverines",
+                "price": -110,
+                "point": -3.5
+              },
+              {
+                "name": "Nebraska Cornhuskers",
+                "price": -110,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b41939807dad226f718eeb8fa56d7342",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-27T16:00:00Z",
+    "home_team": "Georgia Bulldogs",
+    "away_team": "Alabama Crimson Tide",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": -118,
+                "point": 4.5
+              },
+              {
+                "name": "Georgia Bulldogs",
+                "price": -104,
+                "point": -4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f0daa9672398345c140434330134b8e2",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-27T16:00:00Z",
+    "home_team": "Ole Miss Rebels",
+    "away_team": "LSU Tigers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "LSU Tigers",
+                "price": -110,
+                "point": 1.5
+              },
+              {
+                "name": "Ole Miss Rebels",
+                "price": -110,
+                "point": -1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0aed7c08799beb9a4ed133518b11194a",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-09-27T23:30:00Z",
+    "home_team": "Penn State Nittany Lions",
+    "away_team": "Oregon Ducks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Oregon Ducks",
+                "price": -114,
+                "point": 4.5
+              },
+              {
+                "name": "Penn State Nittany Lions",
+                "price": -106,
+                "point": -4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fbde7d91385363d991f47b06e939428c",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-04T16:00:00Z",
+    "home_team": "Florida Gators",
+    "away_team": "Texas Longhorns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Florida Gators",
+                "price": -110,
+                "point": 6.5
+              },
+              {
+                "name": "Texas Longhorns",
+                "price": -110,
+                "point": -6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e3f1c7a8b94a532b18987dfd0c13998e",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-04T16:00:00Z",
+    "home_team": "Florida State Seminoles",
+    "away_team": "Miami Hurricanes",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Florida State Seminoles",
+                "price": -105,
+                "point": 7.5
+              },
+              {
+                "name": "Miami Hurricanes",
+                "price": -115,
+                "point": -7.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0169b39d461abff544e93d0287c1fab1",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-04T19:30:00Z",
+    "home_team": "Alabama Crimson Tide",
+    "away_team": "Vanderbilt Commodores",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": -110,
+                "point": -22.5
+              },
+              {
+                "name": "Vanderbilt Commodores",
+                "price": -110,
+                "point": 22.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8fe4d3c56069de55c950af75be1ef8d2",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-04T19:30:00Z",
+    "home_team": "Notre Dame Fighting Irish",
+    "away_team": "Boise State Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Boise State Broncos",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Notre Dame Fighting Irish",
+                "price": -110,
+                "point": -16.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5a1127219ae128003dc5154af7f3561e",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-11T16:00:00Z",
+    "home_team": "Auburn Tigers",
+    "away_team": "Georgia Bulldogs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Auburn Tigers",
+                "price": -102,
+                "point": 6.5
+              },
+              {
+                "name": "Georgia Bulldogs",
+                "price": -120,
+                "point": -6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6850ce38681c03906af201d68cdd70e7",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-11T16:00:00Z",
+    "home_team": "Illinois Fighting Illini",
+    "away_team": "Ohio State Buckeyes",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -105,
+                "point": 13.5
+              },
+              {
+                "name": "Ohio State Buckeyes",
+                "price": -115,
+                "point": -13.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2bba5df15d3c9222962c8bb8fc24ae80",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-11T16:00:00Z",
+    "home_team": "Oregon Ducks",
+    "away_team": "Indiana Hoosiers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Indiana Hoosiers",
+                "price": -108,
+                "point": 14.5
+              },
+              {
+                "name": "Oregon Ducks",
+                "price": -112,
+                "point": -14.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ec5a3648e7b879155389f31cc523f840",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-11T19:30:00Z",
+    "home_team": "Texas Longhorns",
+    "away_team": "Oklahoma Sooners",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Oklahoma Sooners",
+                "price": -115,
+                "point": 10.5
+              },
+              {
+                "name": "Texas Longhorns",
+                "price": -105,
+                "point": -10.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7634f8df416fbdbf3f700c4fcaa4b03a",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-18T16:00:00Z",
+    "home_team": "Alabama Crimson Tide",
+    "away_team": "Tennessee Volunteers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": -110,
+                "point": -11.5
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": -110,
+                "point": 11.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "55f5ab2c82d0f2993231587e63a6b782",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-18T16:00:00Z",
+    "home_team": "Georgia Bulldogs",
+    "away_team": "Ole Miss Rebels",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Georgia Bulldogs",
+                "price": -110,
+                "point": -9.5
+              },
+              {
+                "name": "Ole Miss Rebels",
+                "price": -110,
+                "point": 9.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7d42c9f08d93cc592f5540348561ddb3",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-18T16:00:00Z",
+    "home_team": "Iowa Hawkeyes",
+    "away_team": "Penn State Nittany Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Iowa Hawkeyes",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Penn State Nittany Lions",
+                "price": -110,
+                "point": -10.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e79f6c92e621c517179918e7e1ef4a26",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-18T16:00:00Z",
+    "home_team": "Michigan Wolverines",
+    "away_team": "Washington Huskies",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Michigan Wolverines",
+                "price": -104,
+                "point": -10.5
+              },
+              {
+                "name": "Washington Huskies",
+                "price": -118,
+                "point": 10.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "432e5ee9d4c8297a2460d82e89ec5161",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-18T23:30:00Z",
+    "home_team": "Notre Dame Fighting Irish",
+    "away_team": "USC Trojans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Notre Dame Fighting Irish",
+                "price": -110,
+                "point": -12.5
+              },
+              {
+                "name": "USC Trojans",
+                "price": -110,
+                "point": 12.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e18c1f37c95bf989baf40bc9692ad742",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-25T16:00:00Z",
+    "home_team": "Utah Utes",
+    "away_team": "Colorado Buffaloes",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Colorado Buffaloes",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Utah Utes",
+                "price": -110,
+                "point": -9.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ecdc07baec885297b19dd029dd0004dc",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-25T16:00:00Z",
+    "home_team": "Kansas Jayhawks",
+    "away_team": "Kansas State Wildcats",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Kansas Jayhawks",
+                "price": -112,
+                "point": 3.5
+              },
+              {
+                "name": "Kansas State Wildcats",
+                "price": -108,
+                "point": -3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "32d34a26fb17b033fb1d33a6a8103cfb",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-25T16:00:00Z",
+    "home_team": "LSU Tigers",
+    "away_team": "Texas A&M Aggies",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "LSU Tigers",
+                "price": -110,
+                "point": -5.5
+              },
+              {
+                "name": "Texas A&M Aggies",
+                "price": -110,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "07c10f14cd8f63779c9c32a0b015a62e",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-10-25T16:00:00Z",
+    "home_team": "Michigan State Spartans",
+    "away_team": "Michigan Wolverines",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Michigan State Spartans",
+                "price": -115,
+                "point": 8.5
+              },
+              {
+                "name": "Michigan Wolverines",
+                "price": -105,
+                "point": -8.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d666a11a38728da38c8404862f2ca14e",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-01T16:00:00Z",
+    "home_team": "Kansas State Wildcats",
+    "away_team": "Texas Tech Red Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Kansas State Wildcats",
+                "price": -110,
+                "point": -4.5
+              },
+              {
+                "name": "Texas Tech Red Raiders",
+                "price": -110,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6496fb908a00a0d0df24b47b120e87c8",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-01T16:00:00Z",
+    "home_team": "Ohio State Buckeyes",
+    "away_team": "Penn State Nittany Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Ohio State Buckeyes",
+                "price": -112,
+                "point": -3.5
+              },
+              {
+                "name": "Penn State Nittany Lions",
+                "price": -108,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0a13bda89bf79d35ae4e7f26d142cbd3",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-01T19:30:00Z",
+    "home_team": "Florida Gators",
+    "away_team": "Georgia Bulldogs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Florida Gators",
+                "price": -110,
+                "point": 8.5
+              },
+              {
+                "name": "Georgia Bulldogs",
+                "price": -110,
+                "point": -8.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a4fd5ab6f224d271ca76719ac8277176",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-08T17:00:00Z",
+    "home_team": "Alabama Crimson Tide",
+    "away_team": "LSU Tigers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": -108,
+                "point": -6.5
+              },
+              {
+                "name": "LSU Tigers",
+                "price": -112,
+                "point": 6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10199f7e5c5b453746cded34d0b34e6f",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-08T17:00:00Z",
+    "home_team": "Clemson Tigers",
+    "away_team": "Florida State Seminoles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Clemson Tigers",
+                "price": -115,
+                "point": -16.5
+              },
+              {
+                "name": "Florida State Seminoles",
+                "price": -105,
+                "point": 16.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7f8f24a59d3218a96bb68c20dbc593de",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-08T17:00:00Z",
+    "home_team": "Penn State Nittany Lions",
+    "away_team": "Indiana Hoosiers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Indiana Hoosiers",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Penn State Nittany Lions",
+                "price": -110,
+                "point": -16.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "42cca8d28245b1fbf784f639a81f2542",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-15T01:00:00Z",
+    "home_team": "Louisville Cardinals",
+    "away_team": "Clemson Tigers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Clemson Tigers",
+                "price": -112,
+                "point": -5.5
+              },
+              {
+                "name": "Louisville Cardinals",
+                "price": -108,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e434a92689a2c3329dbac8efa816cc89",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-15T17:00:00Z",
+    "home_team": "Alabama Crimson Tide",
+    "away_team": "Oklahoma Sooners",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": -115,
+                "point": -12.5
+              },
+              {
+                "name": "Oklahoma Sooners",
+                "price": -105,
+                "point": 12.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "98cb354e78a2e035f0e5c36736d65f7e",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-15T17:00:00Z",
+    "home_team": "Georgia Bulldogs",
+    "away_team": "Texas Longhorns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Georgia Bulldogs",
+                "price": -110,
+                "point": -2.5
+              },
+              {
+                "name": "Texas Longhorns",
+                "price": -110,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c2ca3efd4fc3f87659b7366cde3a2e94",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-22T17:00:00Z",
+    "home_team": "North Carolina Tar Heels",
+    "away_team": "Duke Blue Devils",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": -110,
+                "point": -1.5
+              },
+              {
+                "name": "North Carolina Tar Heels",
+                "price": -110,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1218850e6d356283ca4fdbb33a2b4d33",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-22T17:00:00Z",
+    "home_team": "Utah Utes",
+    "away_team": "Kansas State Wildcats",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Kansas State Wildcats",
+                "price": -118,
+                "point": 1.5
+              },
+              {
+                "name": "Utah Utes",
+                "price": -104,
+                "point": -1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3ff98544de6910e3e7332504955f64df",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-22T17:00:00Z",
+    "home_team": "Oklahoma Sooners",
+    "away_team": "Missouri Tigers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Missouri Tigers",
+                "price": -115,
+                "point": 6.5
+              },
+              {
+                "name": "Oklahoma Sooners",
+                "price": -105,
+                "point": -6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "125e9c0f6043227f58577c41cbd0e85b",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-22T17:00:00Z",
+    "home_team": "Oregon Ducks",
+    "away_team": "USC Trojans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Oregon Ducks",
+                "price": -104,
+                "point": -14.5
+              },
+              {
+                "name": "USC Trojans",
+                "price": -118,
+                "point": 14.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "76916d758d1a2bc57d840d9d1c63aaa3",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-28T17:00:00Z",
+    "home_team": "Nebraska Cornhuskers",
+    "away_team": "Iowa Hawkeyes",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Iowa Hawkeyes",
+                "price": -112,
+                "point": 2.5
+              },
+              {
+                "name": "Nebraska Cornhuskers",
+                "price": -108,
+                "point": -2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f959699d770536ccda4fc4df72a954ea",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-28T17:00:00Z",
+    "home_team": "Mississippi State Bulldogs",
+    "away_team": "Ole Miss Rebels",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Mississippi State Bulldogs",
+                "price": -110,
+                "point": 15.5
+              },
+              {
+                "name": "Ole Miss Rebels",
+                "price": -110,
+                "point": -15.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ee12d0d5e2a05a709506af59bd525728",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-28T20:30:00Z",
+    "home_team": "Georgia Tech Yellow Jackets",
+    "away_team": "Georgia Bulldogs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Georgia Bulldogs",
+                "price": -118,
+                "point": -13.5
+              },
+              {
+                "name": "Georgia Tech Yellow Jackets",
+                "price": -104,
+                "point": 13.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "031eaf298fe62f9cc1ee593ebf867ad2",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-29T00:30:00Z",
+    "home_team": "Texas Longhorns",
+    "away_team": "Texas A&M Aggies",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Texas A&M Aggies",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Texas Longhorns",
+                "price": -110,
+                "point": -10.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "181afdc9ce2683ff7c1debad66022351",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-29T17:00:00Z",
+    "home_team": "Auburn Tigers",
+    "away_team": "Alabama Crimson Tide",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": -115,
+                "point": -5.5
+              },
+              {
+                "name": "Auburn Tigers",
+                "price": -105,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c739b05669e6035797b50a66f2c23ce0",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-29T17:00:00Z",
+    "home_team": "South Carolina Gamecocks",
+    "away_team": "Clemson Tigers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Clemson Tigers",
+                "price": -110,
+                "point": -4.5
+              },
+              {
+                "name": "South Carolina Gamecocks",
+                "price": -110,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a17c0bb6637ad2192754d6d1059f7e92",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-29T17:00:00Z",
+    "home_team": "Michigan Wolverines",
+    "away_team": "Ohio State Buckeyes",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Michigan Wolverines",
+                "price": -115,
+                "point": 5.5
+              },
+              {
+                "name": "Ohio State Buckeyes",
+                "price": -105,
+                "point": -5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "48a0d56354caf6da69d210132615c809",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-29T17:00:00Z",
+    "home_team": "NC State Wolfpack",
+    "away_team": "North Carolina Tar Heels",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -115,
+                "point": -2.5
+              },
+              {
+                "name": "North Carolina Tar Heels",
+                "price": -105,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0deeb2c4386d575a59e7437fe01d1f6f",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-11-29T17:00:00Z",
+    "home_team": "Washington Huskies",
+    "away_team": "Oregon Ducks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Oregon Ducks",
+                "price": -110,
+                "point": -12.5
+              },
+              {
+                "name": "Washington Huskies",
+                "price": -110,
+                "point": 12.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "86b2f11373631509f973bd3e72f5732d",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2025-12-13T20:00:00Z",
+    "home_team": "Navy Midshipmen",
+    "away_team": "Army Black Knights",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-06-27T18:30:52Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-06-27T18:30:52Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": -122,
+                "point": 3.5
+              },
+              {
+                "name": "Navy Midshipmen",
+                "price": 100,
+                "point": -3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
