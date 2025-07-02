@@ -1,0 +1,157 @@
+player_name,dg_id,dg_pred,my_pred
+patrick reed,14838,1.042,1.027
+rasmus neergaard-petersen,23841,0.88,0.941
+david puig,28984,0.778,0.755
+jordan smith,18586,0.68,0.823
+marco penge,22465,0.455,0.52
+jayden schaper,26991,0.405,0.521
+matti schmid,20722,0.402,0.262
+ewen ferguson,21646,0.374,0.38
+eugenio chacarra,26745,0.345,0.406
+francesco laporta,14987,0.305,0.348
+sergio garcia,5689,0.291,0.256
+haotong li,15310,0.244,0.138
+adrien saddier,14792,0.236,0.195
+martin couvra,27811,0.173,0.093
+keita nakajima,21074,0.131,0.102
+marcel schneider,12522,0.116,0.06
+joost luiten,10158,0.104,0.129
+laurie canter,14795,0.087,0.113
+kristoffer reitan,21407,0.076,0.219
+angel ayora,30445,0.06,0.048
+nicolai von dellingshausen,22231,0.045,0.025
+john parry,13764,-0.041,0.018
+alex fitzpatrick,25362,-0.074,0.003
+brandon stone,15229,-0.082,-0.069
+jorge campillo,14016,-0.122,-0.058
+daniel hillier,21362,-0.126,-0.107
+fabrizio zanotti,9842,-0.132,-0.255
+richard mansell,24185,-0.162,-0.094
+andy sullivan,15326,-0.189,-0.295
+calum hill,25131,-0.19,-0.14
+sean crocker,23610,-0.203,-0.226
+frederic lacroix,23733,-0.211,-0.175
+oliver lindell,20085,-0.211,-0.226
+edoardo molinari,7033,-0.22,-0.176
+matthew jordan,25601,-0.222,-0.199
+julien guerrier,10201,-0.231,-0.306
+shaun norris,7677,-0.278,-0.39
+sam bairstow,28615,-0.297,-0.347
+jacques kruyswijk,16896,-0.308,-0.245
+dan bradbury,29971,-0.35,-0.519
+johannes veerman,20522,-0.356,-0.37
+romain langasque,16652,-0.375,-0.391
+todd clements,22608,-0.39,-0.39
+jacob skov olesen,25611,-0.412,-0.397
+maximilian kieffer,12317,-0.422,-0.3
+wenyi ding,26193,-0.435,-0.42
+brandon robinson-thompson,24497,-0.441,-0.465
+kiradech aphibarnrat,12321,-0.46,-0.565
+yannik paul,19898,-0.506,-0.539
+connor syme,22089,-0.508,-0.475
+bernd wiesberger,9531,-0.516,-0.506
+jens dantorp,14018,-0.543,-0.543
+wilco nienaber,25889,-0.55,-0.55
+andrea pavan,12177,-0.552,-0.43
+marcus armitage,17813,-0.604,-0.562
+darius van driel,13374,-0.622,-0.622
+ivan cantero gutierrez,19635,-0.643,-0.643
+marcel siem,6950,-0.663,-0.798
+nathan kimsey,18027,-0.669,-0.791
+alejandro del rey,22259,-0.674,-0.716
+ricardo gouveia,18722,-0.681,-0.681
+david ravetto,23416,-0.685,-0.685
+daniel brown,20766,-0.693,-0.717
+aaron cockerill,15596,-0.699,-0.699
+yuto katsuragawa,20448,-0.701,-0.67
+ugo coussaud,20727,-0.708,-0.591
+niklas lemke,10418,-0.71,-0.659
+jeff winther,15680,-0.719,-0.639
+manuel elvira,26008,-0.742,-0.742
+kazuma kobori,24369,-0.755,-0.786
+tom vaillant,28157,-0.759,-0.876
+ignacio elvira mijares,12988,-0.766,-0.766
+freddy schott,27588,-0.775,-0.775
+gavin green,12530,-0.779,-0.883
+grant forrest,16475,-0.788,-0.788
+andreas halvorsen,17747,-0.8,-0.851
+pablo larrazabal,9133,-0.806,-0.806
+richie ramsay,11396,-0.807,-0.822
+martin kaymer,8117,-0.807,-0.676
+guido migliozzi,17357,-0.827,-0.874
+jason scrivener,12734,-0.837,-0.822
+scott jamieson,11397,-0.864,-0.864
+angel hidalgo,24127,-0.878,-0.878
+wesley bryan,21236,-0.88,-0.932
+joe dean,16497,-0.899,-0.899
+joakim lagergren,14780,-0.926,-0.926
+clement sordet,17718,-0.931,-0.931
+rafa cabrera bello,7457,-0.933,-0.933
+matthew southgate,15191,-0.963,-0.963
+adrian otaegui,14975,-0.984,-0.984
+andrew wilson,25588,-0.986,-0.986
+taiga semikawa,19681,-0.987,-0.987
+robin williams,24093,-0.992,-0.992
+jack senior,15115,-1.028,-1.028
+jose luis ballester,28473,-1.062,-1.062
+davis bryant,32550,-1.072,-1.072
+casey jarvis,26947,-1.073,-1.073
+conor purcell,25963,-1.077,-1.077
+minkyu kim,20780,-1.085,-1.085
+simon forsstrom,19806,-1.085,-1.085
+ben schmidt,27258,-1.086,-1.086
+darren fichardt,5754,-1.102,-1.102
+elvis smylie,24200,-1.119,-1.119
+benjamin hebert,12213,-1.129,-1.129
+hamish brown,22168,-1.179,-1.179
+david micheluzzi,19224,-1.196,-1.196
+tapio pulkkanen,13139,-1.2,-1.2
+nicolas colsaerts,6893,-1.205,-1.205
+troy merritt,13367,-1.225,-1.225
+ashun wu,11763,-1.227,-1.227
+joel girrbach,15592,-1.253,-1.253
+jannik de bruyn,23112,-1.286,-1.286
+mikael lindberg,20084,-1.313,-1.313
+gregorio de leo,26506,-1.318,-1.318
+jordan gumberg,23892,-1.342,-1.342
+david horsey,11230,-1.346,-1.346
+brandon wu,25213,-1.358,-1.358
+alexander levy,14973,-1.37,-1.37
+zander lombard,16897,-1.391,-1.391
+lucas bjerregaard,11619,-1.434,-1.434
+jacopo vecchi fossa,17362,-1.517,-1.517
+dale whitnell,13821,-1.539,-1.539
+richard sterne,7049,-1.551,-1.551
+ryggs johnston,32449,-1.56,-1.56
+kevin chappell,13305,-1.597,-1.597
+thomas aiken,7679,-1.61,-1.61
+daniel gale,19212,-1.62,-1.62
+veer ahlawat,22897,-1.641,-1.641
+dylan naidoo,19429,-1.679,-1.679
+ross fisher,9396,-1.7,-1.7
+alfredo garcia-heredia,7887,-1.703,-1.703
+hurly long,25138,-1.708,-1.708
+ryan van velzen,27960,-1.729,-1.729
+matthew baldwin,13344,-1.73,-1.73
+deon germishuys,25888,-1.764,-1.764
+dan erickson,29520,-1.766,-1.766
+tadeáš tetak,27808,-1.768,-1.768
+shubhankar sharma,17081,-1.81,-1.81
+tiger christensen,31123,-1.841,-1.841
+jeong weon ko,26213,-1.849,-1.849
+zihao jin,31187,-1.865,-1.865
+wolfgang glawe,28181,-1.889,-1.889
+alexander george frances,25183,-1.988,-1.988
+bjorn akesson,11530,-2.031,-2.031
+joel moscatel,27815,-2.034,-2.034
+luke donald,4163,-2.092,-2.092
+corey shaun,24599,-2.101,-2.101
+matthias schwab,15016,-2.117,-2.117
+tim wiedemeyer,29973,-2.198,-2.198
+pierre pineau,20900,-2.215,-2.215
+michael hirmer,20713,-2.6,-2.6
+ockie strydom,13731,-2.741,-2.741
+george bryan,23054,-3.383,-3.383
+nicolas horder,28723,-4.004,-4.004
+martin trainer,15634,-4.417,-4.417
+erik barnes,14799,-5.16,-5.16
