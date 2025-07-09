@@ -3,13 +3,13 @@ import argparse
 from collections import defaultdict
 
 
-def aggregate(paths, years_label):
+def aggregate(paths, years_label, course, rounds):
     agg = {}
     for path in paths:
         with open(path, newline='') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if row['round_num'] != '1':
+                if row['round_num'] not in rounds:
                     continue
                 h = int(row['hole_num'])
                 par = int(row['hole_par'])
@@ -50,7 +50,7 @@ def aggregate(paths, years_label):
         rel = scoring_avg - info['par']
         rows.append({
             'tournament_year': years_label,
-            'course_name': 'Golfclub München Eichenried',
+            'course_name': course,
             'round_num': 1,
             'hole_num': h,
             'hole_par': info['par'],
@@ -70,10 +70,14 @@ def main():
     parser = argparse.ArgumentParser(description='Aggregate hole stats across years')
     parser.add_argument('files', nargs='+', help='Input CSV files')
     parser.add_argument('--label', required=True, help='Year label for output (e.g., 2021-2024)')
+    parser.add_argument('--course', required=True, help='Course name for output rows')
+    parser.add_argument('--rounds', default='1', help='Comma separated round numbers to include (e.g., 1,2,3)')
     parser.add_argument('--output', required=True, help='Output CSV path')
     args = parser.parse_args()
 
-    rows = aggregate(args.files, args.label)
+    rounds = {r.strip() for r in args.rounds.split(',') if r.strip()}
+
+    rows = aggregate(args.files, args.label, args.course, rounds)
     with open(args.output, 'w', newline='') as f:
         fieldnames = ['tournament_year','course_name','round_num','hole_num','hole_par','hole_yardage','scoring_avg','rel_scoring_avg','eagles_or_better','birdies','pars','bogeys','doubles_or_worse']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
