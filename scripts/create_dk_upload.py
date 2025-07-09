@@ -16,7 +16,10 @@ def load_projections(path: str) -> dict:
         reader = csv.DictReader(f)
         for row in reader:
             key = normalize_name(row.get('dk_name') or row.get('player'))
-            pts = float(row['total_points'])
+            val = row.get('total_points') or row.get('expected_points')
+            if val is None or val == '':
+                continue
+            pts = float(val)
             data[key] = pts
             # handle common nickname differences
             if key == 'cameron davis':

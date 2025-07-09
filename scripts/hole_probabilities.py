@@ -5,12 +5,12 @@ from collections import defaultdict
 import math
 
 
-def read_hole_stats(path):
+def read_hole_stats(path, rounds=None):
     holes = {}
     with open(path, newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if row["round_num"] != "1":
+            if rounds and row["round_num"] not in rounds:
                 continue
             h = int(row["hole_num"])
             par = int(row["hole_par"])
@@ -95,9 +95,11 @@ def main():
     parser.add_argument("--holes", required=True, help="CSV with hole stats")
     parser.add_argument("--projections", required=True, help="CSV with player round projections")
     parser.add_argument("--output", required=True, help="Output CSV")
+    parser.add_argument("--rounds", default="1", help="Comma separated round numbers to include from hole stats")
     args = parser.parse_args()
 
-    holes = read_hole_stats(args.holes)
+    rounds = {r.strip() for r in args.rounds.split(',') if r.strip()}
+    holes = read_hole_stats(args.holes, rounds if rounds else None)
     players = read_player_projections(args.projections)
     avg_field = mean(p["adjusted"] for p in players)
 
