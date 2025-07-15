@@ -80,10 +80,14 @@ with open(input_path, encoding='utf-8-sig') as f:
         if not name:
             continue
         try:
-            adjusted = float(row.get('ADJUSTED STROKES') or row.get('STROKES'))
+            adjusted = float(
+                row.get('ADJUSTED STROKES')
+                or row.get('STROKES')
+                or row.get('PROJECTED STROKES')
+            )
         except (TypeError, ValueError):
             continue
-        baseline = row.get('BASELINE STROKES')
+        baseline = row.get('BASELINE STROKES') or row.get('PROJECTED STROKES')
         baseline = float(baseline) if baseline else None
         gained = round(avg_score - adjusted, 3)
         if baseline is not None:
