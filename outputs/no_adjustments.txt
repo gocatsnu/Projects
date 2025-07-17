@@ -1,0 +1,28 @@
+Air Force,no spreads
+Arizona St.,no spreads
+Arkansas,no spreads
+Arkansas St.,no spreads
+BYU,no spreads
+Boston Coll.,no spreads
+Bowling Green,no spreads
+Delaware,no spreads
+FIU,no spreads
+Houston,no spreads
+JMU,no spreads
+Kent St.,no spreads
+La. Tech,no spreads
+Liberty,no spreads
+Memphis,no spreads
+Middle Tenn.,no spreads
+N. Texas,no spreads
+NIU,no spreads
+New Mexico St.,no spreads
+Oklahoma St.,no spreads
+S. Alabama,no spreads
+SDSU,no spreads
+Troy,no spreads
+Tulsa,no spreads
+UAB,no spreads
+UConn,no spreads
+UL-Monroe,no spreads
+Wash. St.,no spreads
