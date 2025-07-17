@@ -1,0 +1,765 @@
+Team,Conference,Record,SP+,Rk,Level
+Ohio State,Big Ten,14-2,81.2,1,FBS
+Ole Miss,SEC,10-3,77.9,2,FBS
+Oregon,Big Ten,13-1,76.1,3,FBS
+Alabama,SEC,9-4,75.1,4,FBS
+Penn State,Big Ten,13-3,74.7,5,FBS
+Georgia,SEC,11-3,74.4,6,FBS
+Texas,SEC,13-3,74.2,7,FBS
+Notre Dame,Indies (FBS),14-2,74.0,8,FBS
+Tennessee,SEC,10-3,72.0,9,FBS
+Miami-FL,ACC,10-3,71.7,10,FBS
+Indiana,Big Ten,11-2,70.2,11,FBS
+SMU,ACC,11-3,67.6,12,FBS
+Texas A&M,SEC,8-5,67.1,13,FBS
+South Carolina,SEC,9-4,67.0,14,FBS
+LSU,SEC,9-4,66.0,15,FBS
+Iowa,Big Ten,8-5,65.8,16,FBS
+BYU,Big 12,11-2,65.3,17,FBS
+Kansas State,Big 12,9-4,64.2,18,FBS
+Missouri,SEC,10-3,64.1,19,FBS
+Florida,SEC,8-5,63.9,20,FBS
+Louisville,ACC,9-4,63.7,21,FBS
+Clemson,ACC,10-4,63.4,22,FBS
+USC,Big Ten,7-6,62.0,23,FBS
+Arkansas,SEC,7-6,61.1,24,FBS
+TCU,Big 12,9-4,60.9,25,FBS
+Michigan,Big Ten,8-5,60.7,26,FBS
+Minnesota,Big Ten,8-5,60.5,27,FBS
+Iowa State,Big 12,11-3,60.4,28,FBS
+Boise State,MWC,12-2,60.2,29,FBS
+Virginia Tech,ACC,6-7,60.1,30,FBS
+Illinois,Big Ten,10-3,59.7,31,FBS
+Memphis,AAC,11-2,59.7,32,FBS
+Oklahoma,SEC,6-7,59.6,33,FBS
+Auburn,SEC,5-7,59.6,34,FBS
+Arizona State,Big 12,11-3,59.5,35,FBS
+UNLV,MWC,11-3,59.3,36,FBS
+Army,AAC,12-2,59.3,37,FBS
+Baylor,Big 12,8-5,58.5,38,FBS
+Colorado,Big 12,9-4,58.2,39,FBS
+Utah,Big 12,5-7,57.8,40,FBS
+James Madison,Sun Belt,9-4,57.5,41,FBS
+Rutgers,Big Ten,7-6,56.5,42,FBS
+Tulane,AAC,9-5,55.8,43,FBS
+Duke,ACC,9-4,55.7,44,FBS
+Kentucky,SEC,4-8,55.6,45,FBS
+Syracuse,ACC,10-3,55.6,46,FBS
+Nebraska,Big Ten,7-6,55.6,47,FBS
+Texas State,Sun Belt,8-5,55.5,48,FBS
+North Carolina,ACC,6-7,55.1,49,FBS
+Kansas,Big 12,5-7,55.0,50,FBS
+Pittsburgh,ACC,7-6,55.0,51,FBS
+Vanderbilt,SEC,7-6,54.9,52,FBS
+UL-Lafayette,Sun Belt,10-4,54.9,53,FBS
+Texas Tech,Big 12,8-5,54.4,54,FBS
+California,ACC,6-7,54.1,55,FBS
+NC State,ACC,6-7,54.0,56,FBS
+Navy,AAC,10-3,53.6,57,FBS
+Washington,Big Ten,6-7,53.2,58,FBS
+Marshall,Sun Belt,10-3,53.2,59,FBS
+Wisconsin,Big Ten,5-7,53.1,60,FBS
+South Alabama,Sun Belt,7-6,52.9,61,FBS
+UCF,Big 12,4-8,52.9,62,FBS
+Ohio,MAC,11-3,52.4,63,FBS
+UTSA,AAC,7-6,52.3,64,FBS
+West Virginia,Big 12,6-7,52.2,65,FBS
+Georgia Tech,ACC,7-6,52.0,66,FBS
+Connecticut,Indies (FBS),9-4,51.6,67,FBS
+Washington State,Indies (FBS),8-5,51.4,68,FBS
+Miami-OH,MAC,9-5,51.4,69,FBS
+Boston College,ACC,7-6,51.3,70,FBS
+Montana State,Big Sky,15-1,51.3,71,FCS
+South Dakota State,MVFC,12-3,50.3,72,FCS
+Liberty,CUSA,8-4,50.2,73,FBS
+Cincinnati,Big 12,5-7,50.0,74,FBS
+Jacksonville State,CUSA,9-5,49.1,75,FBS
+East Carolina,AAC,8-5,49.0,76,FBS
+UCLA,Big Ten,5-7,48.8,77,FBS
+North Dakota State,MVFC,14-2,48.7,78,FCS
+Georgia Southern,Sun Belt,8-5,48.3,79,FBS
+Bowling Green,MAC,7-6,48.3,80,FBS
+Western Kentucky,CUSA,8-6,47.9,81,FBS
+USF,AAC,7-6,47.8,82,FBS
+Toledo,MAC,8-5,47.6,83,FBS
+Oklahoma State,Big 12,3-9,47.5,84,FBS
+Arizona,Big 12,4-8,47.3,85,FBS
+Florida State,ACC,2-10,46.9,86,FBS
+Northern Illinois,MAC,8-5,46.5,87,FBS
+Fresno State,MWC,6-7,46.3,88,FBS
+Maryland,Big Ten,4-8,46.2,89,FBS
+Buffalo,MAC,9-4,46.1,90,FBS
+Mississippi State,SEC,2-10,46.0,91,FBS
+North Texas,AAC,6-7,45.6,92,FBS
+Michigan State,Big Ten,5-7,45.5,93,FBS
+Virginia,ACC,5-7,45.0,94,FBS
+San Jose State,MWC,7-6,44.5,95,FBS
+Wake Forest,ACC,4-8,44.4,96,FBS
+Colorado State,MWC,8-5,44.3,97,FBS
+South Dakota,MVFC,11-3,44.2,98,FCS
+Old Dominion,Sun Belt,5-7,44.1,99,FBS
+Troy,Sun Belt,4-8,43.5,100,FBS
+Oregon State,Indies (FBS),5-7,43.4,101,FBS
+Sam Houston,CUSA,10-3,43.2,102,FBS
+Coastal Carolina,Sun Belt,6-7,43.2,103,FBS
+Appalachian State,Sun Belt,5-6,42.0,104,FBS
+Northwestern,Big Ten,4-8,41.9,105,FBS
+Houston,Big 12,4-8,41.9,106,FBS
+Stanford,ACC,3-9,41.9,107,FBS
+Arkansas State,Sun Belt,8-5,40.2,108,FBS
+Western Michigan,MAC,6-7,39.9,109,FBS
+Utah State,MWC,4-8,39.7,110,FBS
+Hawaii,MWC,5-7,39.2,111,FBS
+Delaware,CAA,9-2,39.0,112,FCS
+UAB,AAC,3-9,38.8,113,FBS
+Rice,AAC,4-8,38.7,114,FBS
+Louisiana Tech,CUSA,5-8,38.5,115,FBS
+Air Force,MWC,5-7,38.4,116,FBS
+Florida International,CUSA,4-8,38.0,117,FBS
+UC Davis,Big Sky,11-3,37.4,118,FCS
+Florida Atlantic,AAC,3-9,37.4,119,FBS
+Harvard,Ivy League,8-2,37.3,120,FCS
+Jackson State,SWAC,12-2,36.9,121,FCS
+Eastern Michigan,MAC,5-7,36.8,122,FBS
+Wyoming,MWC,3-9,36.5,123,FBS
+Mercer,Southern,11-3,36.3,124,FCS
+Incarnate Word,Southland,11-3,36.0,125,FCS
+UT Martin,BSC-OVC,9-5,35.7,126,FCS
+New Mexico,MWC,5-7,35.3,127,FBS
+Nevada,MWC,3-10,34.8,128,FBS
+Charlotte,AAC,5-7,34.8,129,FBS
+San Diego State,MWC,3-9,34.7,130,FBS
+Central Michigan,MAC,4-8,34.3,131,FBS
+Richmond,CAA,10-3,34.2,132,FCS
+Stephen F. Austin,Southland,7-5,34.2,133,FCS
+Montana,Big Sky,9-5,34.1,134,FCS
+Purdue,Big Ten,1-11,33.9,135,FBS
+NC Central,MEAC,8-3,33.7,136,FCS
+Northern Arizona,Big Sky,8-5,33.5,137,FCS
+UL-Monroe,Sun Belt,5-7,33.4,138,FBS
+Idaho,Big Sky,10-4,33.2,139,FCS
+Missouri State,MVFC,8-4,33.1,140,FCS
+Ferris State,GLIAC,14-1,33.0,141,D2
+Yale,Ivy League,7-3,32.8,142,FCS
+Tarleton State,UAC,10-4,32.3,143,FCS
+SE Missouri State,BSC-OVC,9-4,32.3,144,FCS
+Georgia State,Sun Belt,3-9,32.2,145,FBS
+Akron,MAC,4-8,32.1,146,FBS
+Chattanooga,Southern,7-5,32.0,147,FCS
+Illinois State,MVFC,10-4,31.5,148,FCS
+New Mexico State,CUSA,3-9,31.1,149,FBS
+Dartmouth,Ivy League,8-2,30.8,150,FCS
+Villanova,CAA,10-4,30.6,151,FCS
+Ball State,MAC,3-9,30.3,152,FBS
+Temple,AAC,3-9,29.8,153,FBS
+Rhode Island,CAA,11-3,29.5,154,FCS
+Tulsa,AAC,3-9,29.5,155,FBS
+SC State,MEAC,9-3,29.4,156,FCS
+Duquesne,NEC,8-3,29.4,157,FCS
+William & Mary,CAA,7-5,29.2,158,FCS
+ETSU,Southern,7-5,29.1,159,FCS
+Valdosta State,Gulf South,13-1,28.6,160,D2
+Holy Cross,Patriot,6-6,28.5,161,FCS
+Massachusetts,Indies (FBS),2-10,28.2,162,FBS
+Western Carolina,Southern,7-5,28.1,163,FCS
+Tennessee State,BSC-OVC,9-4,28.0,164,FCS
+Stony Brook,CAA,8-4,27.9,165,FCS
+Butler,Pioneer,9-3,27.6,166,FCS
+New Hampshire,CAA,8-5,27.4,167,FCS
+UTEP,CUSA,3-9,27.4,168,FBS
+Harding,Great American,12-2,27.3,169,D2
+Columbia,Ivy League,7-3,27.2,170,FCS
+Central Arkansas,UAC,6-6,27.2,171,FCS
+Lehigh,Patriot,9-4,27.0,172,FCS
+Abilene Christian,UAC,9-5,27.0,173,FCS
+Southern Utah,UAC,7-5,26.4,174,FCS
+Weber State,Big Sky,4-8,26.2,175,FCS
+Monmouth,CAA,6-6,26.1,176,FCS
+North Dakota,MVFC,5-7,25.9,177,FCS
+Middle Tennessee,CUSA,3-9,25.7,178,FBS
+San Diego,Pioneer,8-3,25.7,179,FCS
+Towson,CAA,7-5,25.5,180,FCS
+Tennessee Tech,BSC-OVC,7-5,25.2,181,FCS
+Eastern Washington,Big Sky,4-8,25.0,182,FCS
+Kennesaw State,CUSA,2-10,24.9,183,FBS
+Eastern Kentucky,UAC,8-5,24.9,184,FCS
+Southern Miss,Sun Belt,1-11,24.5,185,FBS
+Hampton,CAA,5-7,24.4,186,FCS
+Elon,CAA,6-6,23.9,187,FCS
+Penn,Ivy League,4-6,23.9,188,FCS
+Southeastern Louisiana,Southland,7-5,23.3,189,FCS
+McNeese State,Southland,6-6,23.0,190,FCS
+Kutztown,PSAC,11-1,22.9,191,D2
+Alabama State,SWAC,7-5,22.4,192,FCS
+Samford,Southern,4-7,22.2,193,FCS
+Central Connecticut,NEC,7-6,22.1,194,FCS
+Lamar,Southland,7-5,22.1,195,FCS
+Lafayette,Patriot,6-6,22.0,196,FCS
+Merrimack,Indies (FCS),5-6,22.0,197,FCS
+Grand Valley State,GLIAC,11-2,22.0,198,D2
+Ouachita Baptist,Great American,10-2,21.7,199,D2
+Youngstown State,MVFC,4-8,21.3,200,FCS
+Sacramento State,Big Sky,3-9,20.9,201,FCS
+Davidson,Pioneer,6-5,20.8,202,FCS
+Charleston (WV),Mountain East,11-1,20.8,203,D2
+Morgan State,MEAC,6-6,20.3,204,FCS
+Gardner-Webb,BSC-OVC,4-8,20.1,205,FCS
+Robert Morris,NEC,7-5,19.9,206,FCS
+Cornell,Ivy League,4-6,19.7,207,FCS
+Idaho State,Big Sky,5-7,19.2,208,FCS
+Southern Arkansas,Great American,9-2,19.0,209,D2
+Drake,Pioneer,8-3,18.7,210,FCS
+Alabama A&M,SWAC,6-6,18.7,211,FCS
+West Florida,Gulf South,7-3,18.5,212,D2
+Wingate,South Atlantic,9-2,18.4,213,D2
+Indianapolis,Great Lakes Valley,10-2,18.3,214,D2
+Austin Peay,UAC,4-8,18.2,215,FCS
+Florida A&M,SWAC,7-5,18.2,216,FCS
+Nicholls State,Southland,4-8,18.2,217,FCS
+Saginaw Valley,GLIAC,7-4,18.1,218,D2
+Princeton,Ivy League,3-7,18.1,219,FCS
+Southern Illinois,MVFC,4-8,17.9,220,FCS
+Lindenwood,BSC-OVC,5-7,17.8,221,FCS
+Maine,CAA,5-7,17.7,222,FCS
+Colorado State-Pueblo,RMAC,10-2,17.6,223,D2
+Grambling,SWAC,5-7,17.4,224,FCS
+West Alabama,Gulf South,9-2,17.4,225,D2
+Bucknell,Patriot,6-6,17.3,226,FCS
+Kent State,MAC,0-12,17.0,227,FBS
+West Georgia,UAC,4-7,17.0,228,FCS
+East Stroudsburg,PSAC,10-2,16.9,229,D2
+The Citadel,Southern,5-7,16.9,230,FCS
+Saint Francis-PA,NEC,4-7,16.8,231,FCS
+Dayton,Pioneer,6-5,16.8,232,FCS
+Virginia Union,CIAA,10-4,16.8,233,D2
+Angelo State,Lone Star,9-3,16.7,234,D2
+Sacred Heart,Indies (FCS),5-6,16.6,235,FCS
+Presbyterian,Pioneer,6-6,16.6,236,FCS
+Western Colorado,RMAC,11-2,16.5,237,D2
+Virginia State,CIAA,7-4,16.4,238,D2
+Central Washington,Lone Star,8-4,16.4,239,D2
+Western Illinois,BSC-OVC,4-8,16.2,240,FCS
+Southern U.,SWAC,8-5,15.9,241,FCS
+Slippery Rock,PSAC,12-2,15.7,242,D2
+St. Thomas,Pioneer,6-6,15.4,243,FCS
+Portland State,Big Sky,3-8,15.4,244,FCS
+Wofford,Southern,5-7,15.4,245,FCS
+Minnesota-Duluth,Northern Sun,7-4,15.3,246,D2
+Northern Iowa,MVFC,3-9,15.3,247,FCS
+Alcorn State,SWAC,6-6,15.3,248,FCS
+Henderson State,Great American,8-3,15.1,249,D2
+Fort Hays State,Mid-America,8-3,15.1,250,D2
+Brown,Ivy League,3-7,15.1,251,FCS
+Furman,Southern,3-8,15.0,252,FCS
+Emory & Henry,South Atlantic,9-2,14.9,253,D2
+Albany-NY,CAA,4-8,14.9,254,FCS
+Colorado Mines,RMAC,8-3,14.6,255,D2
+Long Island,NEC,4-8,14.4,256,FCS
+Indiana State,MVFC,4-8,14.3,257,FCS
+Indiana (PA),PSAC,7-3,13.7,258,D2
+Augustana (SD),Northern Sun,8-4,13.6,259,D2
+North Alabama,UAC,3-9,13.4,260,FCS
+Mercyhurst,NEC,4-7,13.2,261,FCS
+Houston Christian,Southland,5-7,13.0,262,FCS
+Norfolk State,MEAC,4-8,13.0,263,FCS
+Findlay,Great Midwest,9-2,12.9,264,D2
+Tiffin,Great Midwest,8-4,12.8,265,D2
+New Haven,Northeast 10,8-3,12.7,266,D2
+North Central (Ill.),CCIW,15-0,12.6,267,D3
+Texas Southern,SWAC,5-6,12.5,268,FCS
+Howard,MEAC,4-8,12.2,269,FCS
+Cal Poly,Big Sky,3-8,12.1,270,FCS
+Georgetown,Patriot,5-6,11.9,271,FCS
+Campbell,CAA,3-9,11.8,272,FCS
+Prairie View A&M,SWAC,5-7,11.5,273,FCS
+Bemidji State,Northern Sun,10-4,11.5,274,D2
+Delta State,Gulf South,6-4,11.5,275,D2
+Wagner,NEC,4-8,11.0,276,FCS
+Indiana Wesleyan,Mid-States Mideast,11-2,11.0,277,NAIA
+Grand View (Iowa),Heart of America,14-0,11.0,278,NAIA
+Lenoir-Rhyne,South Atlantic,10-3,10.9,279,D2
+Carson-Newman,South Atlantic,9-3,10.8,280,D2
+California (PA),PSAC,10-3,10.4,281,D2
+Fordham,Patriot,2-10,10.1,282,FCS
+Sioux Falls,Northern Sun,8-3,10.1,283,D2
+Eastern Illinois,BSC-OVC,3-9,10.0,284,FCS
+Limestone,South Atlantic,8-3,10.0,285,D2
+Central Oklahoma,Mid-America,11-2,10.0,286,D2
+Texas-Permian Basin,Lone Star,7-5,9.6,287,D2
+Texas A&M-Commerce,Southland,3-9,9.4,288,FCS
+Colgate,Patriot,2-10,9.3,289,FCS
+Charleston Southern,BSC-OVC,1-11,9.1,290,FCS
+Bentley,Northeast 10,8-2,9.0,291,D2
+Fort Valley State,SIAC,6-4,8.9,292,D2
+Truman State,Great Lakes Valley,8-4,8.7,293,D2
+Wayne State (NE),Northern Sun,7-4,8.7,294,D2
+Minnesota State,Northern Sun,11-4,8.5,295,D2
+Hope,MIAA,11-1,8.4,296,D3
+Miles,SIAC,10-3,8.4,297,D2
+UNC Pembroke,Mountain East,6-5,8.3,298,D2
+Michigan Tech,GLIAC,7-4,8.2,299,D2
+Pittsburg State,Mid-America,8-3,8.1,300,D2
+Morehead State,Pioneer,7-5,8.0,301,FCS
+Central Missouri,Mid-America,9-3,7.5,302,D2
+Mars Hill,South Atlantic,5-4,7.3,303,D2
+Murray State,MVFC,1-11,7.2,304,FCS
+Albany State,SIAC,6-4,7.0,305,D2
+Bryant,CAA,2-10,7.0,306,FCS
+Johnson C. Smith,CIAA,8-2,6.6,307,D2
+Ashland,Great Midwest,9-4,6.6,308,D2
+Montana Western,Frontier,10-2,6.5,309,NAIA
+St. John's,MIAC,10-1,6.4,310,D3
+Texas Wesleyan,Sooner,10-1,6.1,311,NAIA
+Emporia State,Mid-America,7-4,5.8,312,D2
+Bethune-Cookman,SWAC,2-10,5.5,313,FCS
+Davenport,GLIAC,7-4,5.3,314,D2
+Winston-Salem State,CIAA,7-3,5.2,315,D2
+Morningside (Iowa),Great Plains,12-2,5.0,316,NAIA
+Southwestern (Kan.),Kansas Collegiate,11-2,4.9,317,NAIA
+Texas A&M-Kingsville,Lone Star,7-4,4.9,318,D2
+Utah Tech,UAC,1-11,4.6,319,FCS
+NW Missouri State,Mid-America,6-5,4.4,320,D2
+Dordt (Iowa),Great Plains,8-2,4.4,321,NAIA
+Ottawa (Ariz.),Sooner,8-2,4.2,322,NAIA
+Montana Tech,Frontier,9-3,4.1,323,NAIA
+Hillsdale,Great Midwest,6-5,3.9,324,D2
+DePauw,NCAC,11-1,3.8,325,D3
+Bowie State,CIAA,4-6,3.8,326,D2
+VMI,Southern,1-11,3.7,327,FCS
+West Chester,PSAC,4-6,3.5,328,D2
+Southern Oregon,Frontier,8-3,3.5,329,NAIA
+Northwood,Great Midwest,6-5,3.4,330,D2
+Hardin-Simmons,ASC,10-1,3.2,331,D3
+Linfield,NWC,10-2,3.2,332,D3
+Assumption,Northeast 10,6-4,3.1,333,D2
+Bethel,MIAC,11-2,3.1,334,D3
+UAPB,SWAC,3-9,3.0,335,FCS
+Valparaiso,Pioneer,4-7,2.5,336,FCS
+Frostburg State,Mountain East,6-5,1.9,337,D2
+Shepherd,PSAC,6-5,1.8,338,D2
+NC A&T,CAA,1-11,1.7,339,FCS
+MidAmerica Nazarene (Kan.),Heart of America,9-2,1.6,340,NAIA
+Mount Union,OAC,14-1,1.2,341,D3
+Winona State,Northern Sun,5-6,1.2,342,D2
+Fayetteville State,CIAA,4-5,1.0,343,D2
+North Greenville,Gulf South,5-5,0.9,344,D2
+Friends (Kan.),Kansas Collegiate,11-2,0.8,345,NAIA
+Wheeling,Mountain East,6-5,0.7,346,D2
+Western Oregon,Lone Star,6-5,0.7,347,D2
+Keiser University,The Sun,12-1,0.6,348,NAIA
+Springfield,NEWMAC,11-1,0.5,349,D3
+Colorado Mesa,RMAC,7-4,0.4,350,D2
+Delaware State,MEAC,1-11,0.4,351,FCS
+Endicott,CNE,10-2,0.3,352,D3
+Fairmont State,Mountain East,7-4,0.1,353,D2
+Benedictine (Kan.),Heart of America,11-3,0.1,354,NAIA
+South Dakota Mines,RMAC,6-5,0.1,355,D2
+Upper Iowa,Great Lakes Valley,7-4,0.0,356,D2
+Central,ARC,8-2,0.0,357,D3
+SE Oklahoma State,Great American,5-6,-0.1,358,D2
+Cortland,E8,11-1,-0.2,359,D3
+Stonehill,NEC,1-10,-0.3,360,FCS
+Northern Colorado,Big Sky,1-11,-0.5,361,FCS
+Baker (Kan.),Heart of America,9-2,-0.5,362,NAIA
+Quincy,Great Lakes Valley,6-4,-0.7,363,D2
+Bethel (Tenn.),Mid-South,7-3,-0.9,364,NAIA
+Campbellsville (Ky.),Mid-South,9-2,-0.9,365,NAIA
+Dickinson State (N.D.),North Star,10-2,-1.0,366,NAIA
+St. Anselm,Northeast 10,5-5,-1.0,367,D2
+Missouri Western,Mid-America,4-7,-1.2,368,D2
+Grove City,PAC,9-2,-1.2,369,D3
+Nebraska-Kearney,Mid-America,5-6,-1.3,370,D2
+Carnegie Mellon,PAC,10-2,-1.4,371,D3
+Northwestern (Iowa),Great Plains,9-3,-1.5,372,NAIA
+Lock Haven,PSAC,5-6,-1.5,373,D2
+UW-Platteville,WIAC,9-2,-1.5,374,D3
+Black Hills State,RMAC,6-5,-1.5,375,D2
+Franklin Pierce,Northeast 10,5-5,-1.7,376,D2
+Minnesota-Moorhead,Northern Sun,6-5,-1.9,377,D2
+St. Thomas (Fla.),The Sun,8-2,-2.0,378,NAIA
+Stetson,Pioneer,2-9,-2.1,379,FCS
+Tuskegee,SIAC,5-6,-2.3,380,D2
+Shaw,CIAA,6-4,-2.3,381,D2
+Chadron State,RMAC,3-8,-2.7,382,D2
+Marietta,OAC,8-3,-2.7,383,D3
+Mass-Dartmouth,MASCAC,10-1,-2.8,384,D3
+West Virginia State,Mountain East,6-5,-2.9,385,D2
+Washington and Jefferson,PAC,9-2,-3.0,386,D3
+West Texas A&M,Lone Star,5-6,-3.1,387,D2
+Bloomsburg,PSAC,6-5,-3.1,388,D2
+Aurora,NACC,9-2,-3.3,389,D3
+Minot State,Northern Sun,5-6,-3.4,390,D2
+Walsh,Great Midwest,5-6,-3.4,391,D2
+Western Connecticut,MASCAC,9-2,-3.5,392,D3
+Washburn,Mid-America,3-8,-3.5,393,D2
+Evangel (Mo.),Kansas Collegiate,8-2,-3.7,394,NAIA
+Wheaton (Ill.),CCIW,9-2,-3.7,395,D3
+UW-Whitewater,WIAC,6-4,-3.8,396,D3
+Salisbury,NJAC,12-1,-3.9,397,D3
+Glenville State,Mountain East,7-4,-3.9,398,D2
+William Jewell,Great Lakes Valley,5-6,-4.1,399,D2
+Southeastern (Fla.),The Sun,7-2,-4.3,400,NAIA
+Alma,MIAA,8-2,-4.4,401,D3
+Randolph-Macon,ODAC,10-2,-4.4,402,D3
+Northwestern State,Southland,0-12,-4.4,403,FCS
+Berry,SAA,8-3,-4.4,404,D3
+Benedict,SIAC,4-6,-4.5,405,D2
+Clark Atlanta,SIAC,8-3,-4.5,406,D2
+Concordia (Neb.),Great Plains,8-2,-4.5,407,NAIA
+Georgetown (Ky.),Mid-South,9-3,-4.7,408,NAIA
+Mary Hardin-Baylor,ASC,8-4,-4.7,409,D3
+UW-La Crosse,WIAC,8-4,-4.7,410,D3
+Northern State,Northern Sun,6-5,-4.8,411,D2
+Midwestern State,Lone Star,4-7,-4.8,412,D2
+MVSU,SWAC,1-11,-4.9,413,FCS
+Lindsey Wilson (Ky.),Mid-South,5-4,-4.9,414,NAIA
+UW-River Falls,WIAC,7-3,-5.0,415,D3
+Marist,Pioneer,1-10,-5.2,416,FCS
+Coe,ARC,9-2,-5.2,417,D3
+Savannah State,SIAC,5-5,-5.5,418,D2
+Catawba,South Atlantic,3-8,-5.5,419,D2
+Trinity (Conn.),NESCAC,7-2,-6.1,420,D3
+McPherson (Kan.),Kansas Collegiate,8-3,-6.1,421,NAIA
+McKendree,Great Lakes Valley,5-6,-6.5,422,D2
+Hobart,LL,9-2,-6.5,423,D3
+Cumberland (Tenn.),Mid-South,7-3,-6.7,424,NAIA
+Ohio Dominican,Great Midwest,4-7,-6.8,425,D2
+Ursinus,CC,8-2,-6.8,426,D3
+Newberry,South Atlantic,3-7,-7.4,427,D2
+Thomas More,Great Midwest,5-6,-7.4,428,D2
+Monmouth,Midwest,8-3,-7.5,429,D3
+Southern Connecticut,Northeast 10,2-8,-7.5,430,D2
+Ithaca,LL,6-4,-7.6,431,D3
+Edinboro,PSAC,3-8,-7.6,432,D2
+College of Idaho,Frontier,7-4,-7.8,433,NAIA
+Washington U.,CCIW,8-2,-7.9,434,D3
+Seton Hill,PSAC,3-8,-7.9,435,D2
+Arkansas Tech,Great American,5-6,-8.1,436,D2
+Susquehanna,LAND,12-2,-8.1,437,D3
+Wartburg,ARC,10-2,-8.2,438,D3
+Mississippi College,Gulf South,2-8,-8.4,439,D2
+Lake Forest,Midwest,10-1,-8.4,440,D3
+East Central (OK),Great American,5-6,-8.5,441,D2
+Wayne State (MI),GLIAC,2-9,-8.6,442,D2
+Case Western Reserve,PAC,6-4,-8.9,443,D3
+Johns Hopkins,CC,12-2,-9.0,444,D3
+Brockport,E8,8-3,-9.0,445,D3
+St. Francis (Ill.),Mid-States Midwest,7-3,-9.0,446,NAIA
+John Carroll,OAC,8-3,-9.2,447,D3
+Clarion,PSAC,3-8,-9.5,448,D2
+Shorter,Indies (D2),3-6,-9.5,449,D2
+Missouri S&T,Great Lakes Valley,4-7,-9.6,450,D2
+Whitworth,NWC,10-2,-9.8,451,D3
+Marian (Ind.),Mid-States Midwest,8-2,-9.9,452,NAIA
+Edward Waters,SIAC,3-7,-10.1,453,D2
+Maryville (Tenn.),USAC,9-2,-10.1,454,D3
+Carroll (Mont.),Frontier,7-3,-10.2,455,NAIA
+Muhlenberg,CC,8-3,-10.3,456,D3
+Lane,SIAC,4-6,-10.3,457,D2
+Livingstone,CIAA,6-4,-10.3,458,D2
+Barton,South Atlantic,3-8,-10.5,459,D2
+Trinity (Texas),SAA,8-3,-10.6,460,D3
+Concordia-Moorhead,MIAC,6-3,-10.8,461,D3
+Delaware Valley,MAC (D3),8-3,-10.8,462,D3
+Shenandoah,ODAC,8-3,-11.1,463,D3
+Anderson,South Atlantic,3-8,-11.2,464,D2
+Illinois College,Midwest,8-2,-11.2,465,D3
+Chowan,Gulf South,4-7,-11.2,466,D2
+Allen,SIAC,1-9,-11.4,467,D2
+Wabash,NCAC,8-3,-11.9,468,D3
+St. Francis (Ind.),Mid-States Midwest,8-4,-12.0,469,NAIA
+Westminster (Pa.),PAC,8-3,-12.0,470,D3
+Taylor (Ind.),Mid-States Mideast,9-2,-12.0,471,NAIA
+UVA-Wise,South Atlantic,4-6,-12.4,472,D2
+Franklin and Marshall,CC,7-4,-12.5,473,D3
+Christopher Newport,NJAC,7-3,-12.6,474,D3
+Eastern New Mexico,Lone Star,3-8,-12.9,475,D2
+Gannon,PSAC,3-7,-12.9,476,D2
+UW-Oshkosh,WIAC,6-4,-13.3,477,D3
+Graceland (Iowa),Heart of America,7-4,-13.3,478,NAIA
+Southern Nazarene,Great American,3-8,-13.4,479,D2
+Arkansas-Monticello,Great American,4-7,-13.6,480,D2
+Centre,SAA,8-3,-13.8,481,D3
+Chapman,SCIAC,7-2,-14.4,482,D3
+Pace,Northeast 10,3-7,-14.6,483,D2
+Albion,MIAA,7-3,-14.8,484,D3
+Kentucky State,SIAC,4-6,-15.0,485,D2
+Northeastern State,Indies (D2),2-9,-15.0,486,D2
+Cumberlands (Ky.),Mid-South,5-5,-15.3,487,NAIA
+Florida Memorial,The Sun,7-3,-15.3,488,NAIA
+Kansas Wesleyan,Kansas Collegiate,7-5,-15.4,489,NAIA
+Roosevelt,GLIAC,1-9,-15.6,490,D2
+Tusculum,South Atlantic,1-9,-15.7,491,D2
+Washington and Lee,ODAC,7-4,-15.9,492,D3
+Missouri Southern,Mid-America,2-9,-16.0,493,D2
+Oklahoma Baptist,Great American,2-9,-16.0,494,D2
+Elizabeth City State,CIAA,3-7,-16.1,495,D2
+East Texas Baptist,ASC,5-4,-16.3,496,D3
+Claremont-Mudd-Scripps,SCIAC,7-2,-16.4,497,D3
+RPI,LL,5-5,-16.5,498,D3
+Western New England,CNE,6-4,-16.5,499,D3
+King's,MAC (D3),10-2,-16.5,500,D3
+SW Oklahoma State,Great American,3-8,-16.5,501,D2
+UW-Stout,WIAC,6-5,-16.6,502,D3
+Peru State (Neb.),Heart of America,7-3,-16.7,503,NAIA
+Concordia-St. Paul,Northern Sun,2-9,-16.8,504,D2
+Southwest Baptist,Great Lakes Valley,2-8,-16.9,505,D2
+Mount St. Joseph,HCAC,8-2,-16.9,506,D3
+Olivet Nazarene (Ill.),Mid-States Midwest,6-4,-17.0,507,NAIA
+St. Norbert,NACC,8-3,-17.1,508,D3
+Denison,NCAC,6-4,-17.4,509,D3
+FDU-Florham,MAC (D3),7-4,-17.6,510,D3
+Texas Lutheran,SCAC,9-2,-17.8,511,D3
+Baldwin Wallace,OAC,7-3,-17.8,512,D3
+Langston (Okla.),Sooner,6-3,-17.8,513,NAIA
+Utica,E8,5-5,-18.0,514,D3
+Concordia (Mich.),Mid-States Mideast,5-6,-18.3,515,NAIA
+American International,Northeast 10,4-7,-18.4,516,D2
+Wesleyan,NESCAC,8-1,-18.5,517,D3
+Central State (OH),SIAC,1-9,-18.9,518,D2
+Hanover,HCAC,8-3,-19.0,519,D3
+Bridgewater,ODAC,6-4,-19.3,520,D3
+St. Xavier (Ill.),Mid-States Midwest,5-6,-19.4,521,NAIA
+Midland (Neb.),Great Plains,6-5,-19.8,522,NAIA
+Siena Heights (Mich.),Mid-States Mideast,3-7,-20.0,523,NAIA
+McMurry,SCAC,6-3,-20.1,524,D3
+St. Olaf,MIAC,6-3,-20.2,525,D3
+Tufts,NESCAC,7-2,-20.3,526,D3
+Reinhardt (Ga.),Appalachian,7-4,-20.4,527,NAIA
+Millersville,PSAC,1-10,-20.7,528,D2
+Post,Northeast 10,2-8,-20.8,529,D2
+New Mexico Highlands,RMAC,1-10,-21.0,530,D2
+Merchant Marine,NEWMAC,5-4,-21.1,531,D3
+Wilkes,LAND,7-4,-21.1,532,D3
+Rowan,NJAC,6-4,-21.1,533,D3
+Gustavus Adolphus,MIAC,5-4,-21.2,534,D3
+Chicago,Midwest,6-4,-21.2,535,D3
+Erskine,Gulf South,1-8,-21.2,536,D2
+Western New Mexico,Lone Star,2-9,-21.4,537,D2
+Shippensburg,PSAC,2-9,-21.4,538,D2
+Lincoln (PA),CIAA,2-8,-21.4,539,D2
+Pikeville (Ky.),Appalachian,6-6,-21.6,540,NAIA
+Wittenberg,NCAC,7-4,-21.6,541,D3
+Pacific Lutheran,NWC,7-3,-21.7,542,D3
+Fort Lewis,RMAC,3-8,-21.7,543,D2
+Middlebury,NESCAC,6-3,-21.9,544,D3
+Mary,Northern Sun,2-9,-21.9,545,D2
+Kentucky Wesleyan,Great Midwest,2-9,-22.1,546,D2
+West Liberty,Mountain East,2-9,-22.3,547,D2
+Northern Michigan,GLIAC,0-11,-22.4,548,D2
+Louisiana Christian,Sooner,4-7,-22.7,549,NAIA
+Eastern Oregon,Frontier,5-6,-22.7,550,NAIA
+Alfred,E8,7-4,-22.9,551,D3
+Dubuque,ARC,5-5,-23.0,552,D3
+Texas College,Sooner,8-3,-23.2,553,NAIA
+Huntingdon,USAC,5-5,-23.4,554,D3
+Missouri Baptist,Heart of America,6-4,-23.4,555,NAIA
+Williams,NESCAC,5-4,-23.5,556,D3
+Pomona-Pitzer,SCIAC,7-3,-23.9,557,D3
+Webber International (Fla.),The Sun,5-5,-23.9,558,NAIA
+Lake Erie,Great Midwest,2-9,-23.9,559,D2
+Union,LL,3-7,-24.0,560,D3
+Morehouse,SIAC,1-9,-24.1,561,D2
+Wayland Baptist (Texas),Sooner,4-6,-24.1,562,NAIA
+TCNJ,NJAC,6-4,-24.4,563,D3
+Illinois Wesleyan,CCIW,5-5,-24.4,564,D3
+Moravian,LAND,7-4,-24.7,565,D3
+Heidelberg,OAC,5-5,-24.7,566,D3
+Sul Ross State,Lone Star,3-8,-24.8,567,D2
+Mount Marty,Great Plains,6-5,-24.8,568,NAIA
+Brevard,USAC,6-3,-24.9,569,D3
+Bluefield State,CIAA,1-9,-25.0,570,D2
+Carroll,CCIW,5-5,-25.2,571,D3
+Hampden-Sydney,ODAC,5-5,-25.2,572,D3
+NW Oklahoma State,Great American,2-9,-25.3,573,D2
+SUNY-Maritime,NEWMAC,7-2,-25.4,574,D3
+Trine,MIAA,6-4,-25.6,575,D3
+Oklahoma Panhandle State,Sooner,4-6,-25.8,576,NAIA
+Pacific,NWC,5-5,-25.8,577,D3
+Ohio Northern,OAC,5-5,-25.8,578,D3
+Salve Regina,NEWMAC,6-4,-26.0,579,D3
+Adrian,MIAA,6-4,-26.3,580,D3
+Benedictine,NACC,5-5,-26.5,581,D3
+Greenville,UMAC,7-3,-26.5,582,D3
+Missouri Valley,Heart of America,4-6,-26.6,583,NAIA
+WPI,NEWMAC,6-4,-26.7,584,D3
+Valley City State (N.D.),North Star,3-7,-26.7,585,NAIA
+Dakota State (S.D.),North Star,6-4,-26.8,586,NAIA
+Rocky Mountain (Mont.),Frontier,2-8,-26.8,587,NAIA
+Concord,Mountain East,1-10,-26.9,588,D2
+Lebanon Valley,MAC (D3),5-5,-27.2,589,D3
+Northwestern (Minn.),UMAC,7-4,-27.2,590,D3
+Husson,CNE,6-5,-27.4,591,D3
+Carleton,MIAC,4-5,-27.5,592,D3
+Bethel (Kan.),Kansas Collegiate,5-6,-27.8,593,NAIA
+Belhaven,USAC,5-5,-28.0,594,D3
+Nelson (Texas),Sooner,4-6,-28.2,595,NAIA
+Concordia (Wis.),NACC,6-3,-28.3,596,D3
+Ohio Wesleyan,NCAC,4-6,-28.6,597,D3
+Lincoln (MO),Great Lakes Valley,1-10,-28.9,598,D2
+Lewis and Clark,NWC,5-5,-29.1,599,D3
+Morrisville State,E8,7-4,-29.1,600,D3
+Rochester,LL,6-5,-29.2,601,D3
+William Penn (Iowa),Heart of America,4-6,-29.5,602,NAIA
+Stevenson,MAC (D3),5-6,-29.5,603,D3
+George Fox,NWC,4-6,-29.6,604,D3
+Augustana,CCIW,4-6,-29.7,605,D3
+Coast Guard,NEWMAC,5-4,-30.1,606,D3
+Virginia-Lynchburg,Indies (D2),0-2,-30.3,607,D2
+Bridgewater State,MASCAC,5-5,-30.3,608,D3
+WV Wesleyan,Mountain East,0-11,-30.4,609,D2
+Dakota Wesleyan (S.D.),Great Plains,4-7,-30.5,610,NAIA
+Southwestern,SAA,4-6,-30.7,611,D3
+Wisconsin Lutheran,NACC,7-3,-30.9,612,D3
+Muskingum,OAC,5-5,-31.0,613,D3
+Plymouth State,MASCAC,5-4,-31.0,614,D3
+Augsburg,MIAC,4-5,-31.0,615,D3
+Tabor (Kan.),Kansas Collegiate,6-5,-31.1,616,NAIA
+Colby,NESCAC,4-5,-31.2,617,D3
+Adams State,RMAC,1-10,-31.7,618,D2
+Rose-Hulman,HCAC,5-5,-31.7,619,D3
+SW Minnesota State,Northern Sun,0-11,-31.7,620,D2
+Jamestown (N.D.),North Star,3-7,-31.9,621,NAIA
+Dickinson,CC,5-6,-32.4,622,D3
+Ave Maria (Fla.),The Sun,3-7,-32.5,623,NAIA
+Hendrix,SAA,4-6,-32.6,624,D3
+Redlands,SCIAC,3-6,-32.6,625,D3
+University of New England,CNE,4-6,-32.9,626,D3
+MIT,NEWMAC,3-6,-33.0,627,D3
+North Park,CCIW,5-5,-33.1,628,D3
+Lycoming,LAND,4-6,-33.3,629,D3
+Point (Ga.),Appalachian,4-7,-33.4,630,NAIA
+Widener,MAC (D3),5-6,-33.5,631,D3
+Anna Maria,ECFC,4-4,-33.7,632,D3
+Mayville State (N.D.),North Star,4-5,-33.9,633,NAIA
+Bluefield (Va.),Appalachian,5-6,-34.2,634,NAIA
+Minnesota-Morris,UMAC,5-5,-34.3,635,D3
+Defiance,Mid-States Mideast,4-7,-34.6,636,NAIA
+Simpson,ARC,6-6,-34.9,637,D3
+Howard Payne,ASC,1-8,-35.3,638,D3
+St. John Fisher,E8,3-7,-35.3,639,D3
+Cornell,Midwest,5-5,-35.3,640,D3
+UW-Eau Claire,WIAC,2-8,-35.4,641,D3
+Wooster,NCAC,3-7,-35.7,642,D3
+Montclair State,NJAC,3-7,-36.0,643,D3
+Avila (Mo.),Kansas Collegiate,4-7,-36.3,644,NAIA
+Kalamazoo,MIAA,4-6,-36.5,645,D3
+Olivet,MIAA,3-7,-36.6,646,D3
+Catholic,LAND,5-5,-36.6,647,D3
+St. Ambrose (Iowa),Heart of America,3-8,-36.7,648,NAIA
+Bowdoin,NESCAC,3-6,-36.9,649,D3
+Massachusetts Maritime,MASCAC,5-5,-36.9,650,D3
+Martin Luther,UMAC,6-4,-36.9,651,D3
+Ferrum,ODAC,5-5,-37.0,652,D3
+Curry,CNE,4-6,-37.0,653,D3
+Lakeland,NACC,4-5,-37.0,654,D3
+Faulkner (Ala.),Mid-South,2-8,-37.3,655,NAIA
+Arizona Christian,Frontier,2-7,-37.5,656,NAIA
+Eastern,MAC (D3),5-5,-38.1,657,D3
+Ripon,Midwest,4-6,-38.4,658,D3
+Rhodes,SAA,3-7,-38.6,659,D3
+Franklin,HCAC,3-7,-38.9,660,D3
+Millsaps,SAA,4-5,-39.2,661,D3
+Ottawa (Kan.),Kansas Collegiate,1-10,-39.2,662,NAIA
+Lawrence Tech (Mich.),Mid-States Mideast,2-8,-39.3,663,NAIA
+LaGrange,USAC,6-4,-39.3,664,D3
+Cal Lutheran,SCIAC,1-8,-39.4,665,D3
+Geneva,PAC,5-5,-40.0,666,D3
+St. Mary (Kan.),Kansas Collegiate,1-9,-40.2,667,NAIA
+Loras,ARC,2-8,-40.6,668,D3
+Kentucky Christian,Appalachian,2-9,-41.5,669,NAIA
+Calvin,MIAA,2-8,-41.5,670,D3
+Rockford,NACC,4-6,-41.6,671,D3
+St. Lawrence,LL,3-6,-41.7,672,D3
+Culver-Stockton (Mo.),Heart of America,3-8,-41.8,673,NAIA
+Kenyon,NCAC,5-5,-42.0,674,D3
+Doane (Neb.),Great Plains,3-8,-42.5,675,NAIA
+Sewanee,SAA,2-8,-42.6,676,D3
+Misericordia,MAC (D3),3-7,-42.7,677,D3
+St. Scholastica,MIAC,3-6,-42.9,678,D3
+Bates,NESCAC,2-7,-42.9,679,D3
+Gettysburg,CC,2-8,-42.9,680,D3
+Hamline,MIAC,3-6,-43.0,681,D3
+Waynesburg,PAC,4-6,-43.2,682,D3
+Sterling (Kan.),Kansas Collegiate,2-9,-43.2,683,NAIA
+Nichols,CNE,2-7,-43.3,684,D3
+Nebraska Wesleyan,ARC,3-7,-43.4,685,D3
+Amherst,NESCAC,2-7,-43.4,686,D3
+Hastings (Neb.),Great Plains,2-9,-43.6,687,NAIA
+Buffalo State,LL,3-7,-44.1,688,D3
+Averett,ODAC,3-7,-44.5,689,D3
+Kean,NJAC,2-8,-44.5,690,D3
+Alfred State,ECFC,4-6,-44.7,691,D3
+Union (Ky.),Appalachian,3-7,-44.8,692,NAIA
+N.C. Wesleyan,USAC,4-6,-45.2,693,D3
+Westfield State,MASCAC,4-6,-45.4,694,D3
+Bluffton,HCAC,3-7,-45.4,695,D3
+UW-Stevens Point,WIAC,1-9,-45.5,696,D3
+Bethany (Kan.),Kansas Collegiate,3-8,-45.6,697,NAIA
+Framingham State,MASCAC,3-7,-45.7,698,D3
+Hamilton,NESCAC,1-8,-46.4,699,D3
+Puget Sound,NWC,2-8,-47.0,700,D3
+Montana State-Northern,Frontier,1-9,-47.0,701,NAIA
+Castleton,MASCAC,3-7,-47.1,702,D3
+Guilford,ODAC,3-7,-47.6,703,D3
+Macalester,MIAC,0-9,-47.6,704,D3
+Norwich,NEWMAC,0-10,-47.6,705,D3
+Carthage,CCIW,2-8,-48.0,706,D3
+Gallaudet,ECFC,3-4,-48.1,707,D3
+Centenary (La.),SCAC,4-6,-48.3,708,D3
+Briar Cliff (Iowa),Great Plains,2-9,-48.3,709,NAIA
+Buena Vista,ARC,2-8,-48.5,710,D3
+Elmhurst,CCIW,3-7,-49.0,711,D3
+Warner (Fla.),The Sun,0-8,-49.6,712,NAIA
+Thomas University (Ga.),The Sun,1-9,-49.6,713,NAIA
+Worcester State,MASCAC,3-7,-50.2,714,D3
+St. Vincent,PAC,1-9,-50.3,715,D3
+Alvernia,MAC (D3),1-8,-50.6,716,D3
+North American (Texas),Indies (NAIA),2-9,-50.8,717,NAIA
+La Verne,SCIAC,0-9,-50.9,718,D3
+Knox,Midwest,3-7,-51.2,719,D3
+Austin,SCAC,2-8,-51.3,720,D3
+McDaniel,CC,1-9,-51.5,721,D3
+William Paterson,NJAC,1-9,-51.6,722,D3
+Keystone,LAND,1-9,-51.9,723,D3
+Otterbein,OAC,1-9,-52.0,724,D3
+Fitchburg State,MASCAC,2-8,-52.1,725,D3
+Central Methodist (Mo.),Heart of America,1-10,-52.8,726,NAIA
+Methodist,USAC,1-9,-52.9,727,D3
+Allegheny,PAC,1-9,-53.5,728,D3
+Capital,OAC,1-9,-53.5,729,D3
+Thiel,PAC,3-7,-53.9,730,D3
+Wilmington,OAC,1-9,-53.9,731,D3
+Clarke (Iowa),Heart of America,1-10,-54.1,732,NAIA
+Albright,MAC (D3),2-8,-54.3,733,D3
+Greensboro,USAC,1-9,-54.9,734,D3
+Millikin,CCIW,0-10,-55.5,735,D3
+Concordia-Chicago,NACC,2-8,-55.8,736,D3
+Juniata,LAND,2-8,-55.9,737,D3
+Bethany,PAC,1-9,-56.3,738,D3
+Anderson,HCAC,3-8,-56.4,739,D3
+Madonna (Mich.),Mid-States Mideast,0-11,-56.9,740,NAIA
+Grinnell,Midwest,2-7,-57.0,741,D3
+Waldorf (Iowa),Great Plains,0-11,-57.5,742,NAIA
+Westminster (Mo.),UMAC,1-9,-57.6,743,D3
+Crown,UMAC,1-9,-58.1,744,D3
+Arkansas Baptist,Sooner,1-10,-58.1,745,NAIA
+William Woods (Mo.),Heart of America,1-10,-58.2,746,NAIA
+Willamette,NWC,1-9,-58.5,747,D3
+Hiram,NCAC,1-10,-58.5,748,D3
+Judson (Ill.),Mid-States Midwest,1-9,-58.8,749,NAIA
+John Melvin,Indies (NAIA),0-1,-59.2,750,NAIA
+Hartwick,E8,1-8,-59.3,751,D3
+Beloit,Midwest,1-9,-59.5,752,D3
+Eureka,NACC,0-10,-59.5,753,D3
+Simpson,Indies (NAIA),0-9,-60.3,754,NAIA
+Lawrence,Midwest,1-9,-61.0,755,D3
+Lyon,SCAC,0-8,-61.5,756,D3
+Southern Virginia,USAC,1-9,-61.7,757,D3
+St. Andrews (N.C.),Appalachian,0-9,-61.8,758,NAIA
+Luther,ARC,1-9,-62.4,759,D3
+Lincoln (CA),Indies (NAIA),0-4,-62.6,760,NAIA
+Oberlin,NCAC,1-9,-64.9,761,D3
+Manchester,HCAC,0-10,-67.8,762,D3
+Hilbert,E8,0-10,-67.9,763,D3
+Dean,ECFC,0-8,-68.9,764,D3
