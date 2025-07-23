@@ -34,6 +34,25 @@ python3 scripts/adjust_projections.py \
 
 The resulting CSV lists each player with the original and adjusted stroke projection.
 
+## 3M Open Example
+
+To project per‑round strokes for the 3M Open and incorporate market info:
+
+```bash
+python3 scripts/project_per_round_strokes.py \
+  --strokes "data/raw/dg_decomposition 3M Open.csv" \
+  --tournament "data/raw/Tournament Information - 3M Open.csv" \
+  --output "outputs/Projected Per Round Strokes 3M Open.csv"
+
+python3 scripts/adjust_per_round_strokes.py \
+  --strokes "outputs/Projected Per Round Strokes 3M Open.csv" \
+  --r1 "data/raw/r1_match-up_odds_screen 3M Open.csv" \
+  --t72 "data/raw/72-hole_match_odds_screen 3M Open.csv" \
+  --output "outputs/Adjusted Per Round Strokes 3M Open.csv"
+```
+
+The adjustment averages odds from **BetOnline**, **BetCris**, and **Pinnacle** when available. The 3M Open uses a traditional 36‑hole cut, so only golfers making the cut are expected to play all four rounds.
+
 
 `scripts/fair_odds.py` calculates fair head-to-head odds for any matchup in the `72 Hole` CSV that lacks a BetOnline, BetCris, or Pinnacle line. The script uses the adjusted stroke predictions and assumes a player scoring standard deviation of 4.5 strokes per tournament. It also pulls available prices from DraftKings, Bet365, FanDuel, BetMGM, PointsBet, Bovada, Caesars, and Unibet and computes the expected value of each.
 
