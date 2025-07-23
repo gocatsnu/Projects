@@ -76,14 +76,24 @@ def main():
     parser = argparse.ArgumentParser(description="Adjust per-round strokes using market matchups")
     parser.add_argument("--strokes", required=True, help="CSV with per-round stroke projections")
     parser.add_argument("--r1", required=True, help="Round 1 matchup odds CSV")
-    parser.add_argument("--t72", required=True, help="72-hole matchup odds CSV")
+    parser.add_argument(
+        "--t72",
+        required=True,
+        help="Multi-round matchup odds CSV (e.g. 72-hole for PGA, 54-hole for LIV)",
+    )
+    parser.add_argument(
+        "--holes",
+        type=int,
+        default=72,
+        help="Number of holes for the tournament matchups (default 72)",
+    )
     parser.add_argument("--output", required=True, help="Output CSV path")
     args = parser.parse_args()
 
     strokes = load_per_round_strokes(args.strokes)
     pairs = []
     pairs.extend(parse_matchups_per_round(args.r1, strokes, holes=18))
-    pairs.extend(parse_matchups_per_round(args.t72, strokes, holes=72))
+    pairs.extend(parse_matchups_per_round(args.t72, strokes, holes=args.holes))
 
     adjusted = adjust_strokes(strokes, pairs)
 
