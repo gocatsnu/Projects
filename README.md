@@ -53,6 +53,35 @@ python3 scripts/adjust_per_round_strokes.py \
 
 The adjustment averages odds from **BetOnline**, **BetCris**, and **Pinnacle** when available. The 3M Open uses a traditional 36‑hole cut, so only golfers making the cut are expected to play all four rounds.
 
+## Wyndham Championship Example
+
+Generate Wyndham per‑round strokes using the same scripts:
+
+```bash
+python3 scripts/project_per_round_strokes.py \
+  --strokes "data/raw/dg_decomposition Wyndham.csv" \
+  --tournament "data/raw/Tournament Information -  Wyndham.csv" \
+  --output "outputs/Projected Per Round Strokes Wyndham.csv"
+
+python3 scripts/adjust_per_round_strokes.py \
+  --strokes "outputs/Projected Per Round Strokes Wyndham.csv" \
+  --r1 "data/raw/r1_match-up_odds_screen Wyndham.csv" \
+  --t72 "data/raw/72-hole_match_odds_screen Wyndham.csv" \
+  --output "outputs/Adjusted Per Round Strokes Wyndham.csv"
+```
+
+Convert the adjusted strokes to strokes gained and fill the DataGolf template:
+
+```bash
+python3 scripts/create_template_from_adjusted.py \
+  --adjusted "outputs/Adjusted Per Round Strokes Wyndham.csv" \
+  --template "data/raw/my_model_import_template Wyndham.csv" \
+  --tournament "data/raw/Tournament Information -  Wyndham.csv" \
+  --output "outputs/Wyndham DG Model Per Round.csv"
+```
+
+These adjustments also rely solely on **BetOnline**, **BetCris**, and **Pinnacle** odds. The Wyndham Championship features the standard 36‑hole cut after round two.
+
 
 `scripts/fair_odds.py` calculates fair head-to-head odds for any matchup in the `72 Hole` CSV that lacks a BetOnline, BetCris, or Pinnacle line. The script uses the adjusted stroke predictions and assumes a player scoring standard deviation of 4.5 strokes per tournament. It also pulls available prices from DraftKings, Bet365, FanDuel, BetMGM, PointsBet, Bovada, Caesars, and Unibet and computes the expected value of each.
 
