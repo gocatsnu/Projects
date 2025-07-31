@@ -70,6 +70,16 @@ python3 scripts/adjust_per_round_strokes.py \
   --output "outputs/Adjusted Per Round Strokes Wyndham.csv"
 ```
 
+Convert the adjusted strokes to strokes gained and fill the DataGolf template:
+
+```bash
+python3 scripts/create_template_from_adjusted.py \
+  --adjusted "outputs/Adjusted Per Round Strokes Wyndham.csv" \
+  --template "data/raw/my_model_import_template Wyndham.csv" \
+  --tournament "data/raw/Tournament Information -  Wyndham.csv" \
+  --output "outputs/Wyndham DG Model Per Round.csv"
+```
+
 These adjustments also rely solely on **BetOnline**, **BetCris**, and **Pinnacle** odds. The Wyndham Championship features the standard 36‑hole cut after round two.
 
 
