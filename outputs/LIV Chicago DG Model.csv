@@ -1,0 +1,55 @@
+player_name,dg_id,dg_pred,my_pred
+jon rahm,19195,1.989,2.212
+bryson dechambeau,19841,1.897,2.098
+joaquin niemann,18079,1.565,1.818
+tyrrell hatton,14796,1.402,1.589
+sebastian munoz,20770,0.836,0.983
+patrick reed,14838,0.821,1.053
+talor gooch,18580,0.672,0.9
+tom mckibbin,22322,0.497,0.712
+david puig,28984,0.483,0.746
+carlos ortiz,14735,0.466,0.662
+abraham ancer,18238,0.413,0.618
+paul casey,7108,0.344,0.573
+cameron tringale,14013,0.307,0.489
+sergio garcia,5689,0.298,0.549
+cameron smith,15856,0.283,0.542
+lucas herbert,17064,0.244,0.448
+bubba watson,7334,0.228,0.406
+louis oosthuizen,7672,0.224,0.448
+anirban lahiri,12669,0.164,0.344
+thomas pieters,13944,0.151,0.321
+harold varner iii,16602,0.146,0.358
+charles howell iii,6892,0.122,0.343
+dean burmester,14424,0.053,0.253
+charl schwartzel,7398,0.017,0.228
+marc leishman,7649,0.015,0.275
+brooks koepka,16243,-0.033,0.21
+branden grace,11952,-0.115,0.043
+dustin johnson,12422,-0.172,0.076
+richard bland,6516,-0.177,0.002
+brendan steele,11019,-0.209,-0.03
+jason kokrak,12337,-0.268,-0.001
+jinichiro kozuma,14209,-0.313,-0.157
+henrik stenson,5994,-0.397,-0.232
+sam horsfield,19866,-0.424,-0.298
+caleb surratt,30463,-0.458,-0.146
+adrian meronk,14196,-0.504,-0.254
+martin kaymer,8117,-0.716,-0.427
+phil mickelson,1547,-0.717,-0.462
+peter uihlein,11357,-0.804,-0.492
+kevin na,7452,-0.81,-0.637
+graeme mcdowell,7548,-0.813,-0.601
+ben campbell,14373,-0.821,-0.578
+lee westwood,4052,-0.841,-0.631
+jose luis ballester,28473,-0.944,-0.677
+matt jones,8605,-0.987,-0.786
+matthew wolff,25919,-1.034,-0.833
+andy ogletree,27597,-1.108,-0.824
+chieh-po lee,16563,-1.284,-1.105
+ian poulter,1435,-1.315,-1.031
+yubin jang,28276,-1.469,-1.216
+danny lee,11826,-1.636,-1.42
+mito pereira,19455,-1.867,-1.651
+frederik kjettrup,24660,-2.428,-2.212
+anthony kim,11641,-2.638,-2.422
