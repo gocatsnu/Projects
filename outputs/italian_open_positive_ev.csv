@@ -1,0 +1,43 @@
+market,player,book,odds,ev
+top_5,"Forsstrom, Simon",bet365,+6000,0.2523
+top_5,"Girrbach, Joel",betway,+6600,0.2138
+top_5,"Iwata, Hiroshi",bet365,+6000,0.2027
+top_5,"McGowan, Ross",bet365,+27500,0.1844
+top_5,"Saddier, Adrien",bet365,+1400,0.1737
+top_10,"Scrivener, Jason",bet365,+1000,0.1715
+top_10,"Frances, Alexander George",bet365,+10000,0.1591
+top_20,"Girrbach, Joel",bovada,+1100,0.1572
+win,"Schaper, Jayden",fanduel,+3000,0.1571
+miss_cut,"Couvra, Martin",bet365,+225,0.1566
+win,"Lindell, Oliver",fanduel,+5500,0.1452
+win,"Aiken, Thomas",fanduel,+50000,0.1356
+top_10,"McGowan, Ross",bet365,+10000,0.1306
+win,"Saddier, Adrien",bet365,+6600,0.13
+top_5,"Scrivener, Jason",bet365,+2000,0.1188
+top_20,"Vecchi Fossa, Jacopo",bovada,+1600,0.1104
+top_10,"Saddier, Adrien",bet365,+650,0.1095
+top_5,"Clements, Todd",bet365,+2000,0.1018
+make_cut,"Girrbach, Joel",draftkings,+135,0.0981
+win,"Kobori, Kazuma",fanduel,+11000,0.0971
+top_5,"Frances, Alexander George",bet365,+27500,0.0953
+win,"Scrivener, Jason",bet365,+11000,0.0896
+top_10,"Amat, Bastien",bet365,+17500,0.0894
+make_cut,"Van Driel, Darius",draftkings,-125,0.0857
+top_10,"Molinari, Edoardo",bet365,+700,0.084
+top_20,"Saddier, Adrien",unibet,+300,0.084
+top_5,"Gumberg, Jordan",bet365,+6000,0.0825
+top_10,"Schaper, Jayden",unibet,+350,0.0791
+top_5,"Molinari, Edoardo",bet365,+1400,0.0784
+miss_cut,"Ferguson, Ewen",unibet,+275,0.0776
+top_5,"Schaper, Jayden",fanduel,+650,0.073
+make_cut,"Parry, John",draftkings,-200,0.0726
+win,"Ding, Wenyi",bet365,+5500,0.0724
+top_10,"Girrbach, Joel",bet365,+2500,0.0704
+top_10,"Lindell, Oliver",caesars,+550,0.0691
+top_5,"Lindell, Oliver",bet365,+1100,0.0686
+win,"Ramsay, Richie",betcris,+13245,0.0676
+win,"Purcell, Conor",betcris,+15066,0.0667
+top_5,"Kobori, Kazuma",bet365,+2000,0.0638
+make_cut,"Lindell, Oliver",draftkings,-175,0.0629
+make_cut,"Aiken, Thomas",draftkings,+140,0.0619
+make_cut,"Purcell, Conor",draftkings,-115,0.0602
