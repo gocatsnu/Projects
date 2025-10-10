@@ -126,6 +126,19 @@ python3 scripts/scrape_live_scores.py --event_id 401234567 --output memorial_sco
 
 The resulting CSV lists each player and their score on holes 1–18. Empty fields indicate holes not yet played.
 
+## DraftKings College Football Anytime Touchdown Odds
+
+`scripts/scrape_ncaaf_anytime_td.py` grabs the latest anytime touchdown scorer prices for NCAA football games directly from DraftKings. It looks up the college football event group, filters for the "Anytime Touchdown Scorer" market, and saves the odds for every listed player to a CSV file.
+
+Run it with:
+
+```bash
+python3 scripts/scrape_ncaaf_anytime_td.py \
+  --output outputs/draftkings_ncaaf_anytime_td.csv
+```
+
+The output includes the matchup, kickoff time, player name, and the posted American and decimal odds so you can quickly scan for value.
+
 ## Evaluating Sportsbook Prices
 
 `scripts/model_ev.py` compares your model's probabilities for each golfer against the American-odds lines from multiple sportsbooks. It converts the odds to decimal form and computes expected value using
